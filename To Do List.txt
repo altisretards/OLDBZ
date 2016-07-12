@@ -1,11 +1,12 @@
 
 					Listes des choses à faire en priorité.
 
--Rendre les 4 premiers slot des Gendarmes WHITELIST et pas freeslot.
--Remanier les shops des Gendarmes en gardant les mêmes armes mais avec les restrictions correspondants aux grades.
--Fournir correctement les viseurs sur les shops rebelles.
--Fournir les shops Gendarmes en JVN/Trousses de secours et Boites à outils et les rendres permanentes chez les  Gendarmes.
--Ajouter les Textures pour les médics et fournir les shops.
+- Un seul free slot police
+- Remanier les shops des Gendarmes en gardant les mêmes armes mais avec les restrictions correspondants aux grades.
+- Check shop rebelle (viseurs)
+- Ajouter les Textures pour les médics et fournir les shops.
+
+
 -Modifier le menu "Y".
 -Ajouter une barre d'état.
 -Rendre les sacs invisibles chez les Gendarmes et les Medics.
