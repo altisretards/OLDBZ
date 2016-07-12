@@ -2,7 +2,8 @@
 					Listes des choses à faire en priorité.
 
 - Un seul free slot police
-- Remanier les shops des Gendarmes en gardant les mêmes armes mais avec les restrictions correspondants aux grades.
+- Remanier les shops des Gendarmes en gardant les mêmes armes mais avec les restrictions correspondants aux grades. (+SPAR - nouvelle
+arme Tanoa)
 - Check shop rebelle (viseurs)
 - Ajouter les Textures pour les médics et fournir les shops.
 
