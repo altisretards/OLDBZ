@@ -1,14 +1,19 @@
 
 					Listes des choses à faire en priorité.
 
-- Un seul free slot police
-- Remanier les shops des Gendarmes en gardant les mêmes armes mais avec les restrictions correspondants aux grades. (+SPAR - nouvelle
-arme Tanoa)
+TO DO :
+
 - Check shop rebelle (viseurs)
-- Ajouter les Textures pour les médics et fournir les shops.
+- Ajouter les Textures additionnelles (par grade + véhicules)
+- Modifier le menu "Y".
+- Ajouter une barre d'état. (?)
+- Rendre les sacs invisibles chez les Gendarmes et les Medics.
+(- ajout nouvelles armes Tanoa -> police)
+(- Systeme de revive https://www.youtube.com/watch?v=V_BrZ8Kzx_4)
 
+DONE :
 
--Modifier le menu "Y".
--Ajouter une barre d'état.
--Rendre les sacs invisibles chez les Gendarmes et les Medics.
-(-Systeme de revive https://www.youtube.com/watch?v=V_BrZ8Kzx_4)
+- Appliquer les textures par défaut police/medic
+- Un seul free slot police
+- Remanier les shops des Gendarmes en gardant les mêmes armes mais avec les restrictions correspondants aux grades.
+- Remanier le shop armurerie civile
