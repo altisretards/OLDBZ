@@ -11,6 +11,10 @@ TO DO :
 (- ajout nouvelles armes Tanoa -> police)
 (- Systeme de revive https://www.youtube.com/watch?v=V_BrZ8Kzx_4)
 
+EN COURS :
+
+- Stringtable #3077
+
 DONE :
 
 - Appliquer les textures par défaut police/medic
