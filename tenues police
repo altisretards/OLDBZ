@@ -7,3 +7,57 @@ Polaire -> [adjudant -> lieut]
 Grand froid -> [lieut -> col]
 
 Motard -> ALL
+
+
+Equipement de base par grade
+============================
+
+-> GAV <-
+
+  - Armement : P07 + 5 chargeurs
+  - Tenue : Polo gendarmerie (skin U_Rangemaster -> polo_cop.paa), casquette police, ceinture rangemaster
+  - Items : Map, GPS, montre, boussole
+  
+-> Brigadier <-
+
+  - Armement : SDAR + 3 chargeurs
+  - Tenue : Polo gendarmerie (skin U_Rangemaster -> polo_cop.paa), casquette police, gilet pare-balles police (V_TacVest_blk_POLICE)
+  - Items : Map, GPS, montre, boussole, jumelles
+  
+-> Brigadier-chef <-
+
+  Identique au brigadier
+  
+-> Adjudant <-
+
+  - Armement : MXC + 5 chargeurs
+  - Tenue : Polaire gendarmerie (skin U_B_PilotCoveralls -> polar_cop.paa), bérêt police, veste Raven
+  - Items : Map, GPS, montre, boussole, télémètre
+  
+-> Major <-
+
+  - Armement : MX_SW + 1 chargeur 100 cartouches + 3 chargeurs 30 cartouches
+  - Tenue : Polaire gendarmerie (skin U_B_PilotCoveralls -> polar_cop.paa), bérêt police, gilet léger noir
+  - Items : Map, GPS, montre, boussole, télémètre
+  
+-> Lieutenant <-
+
+  Identique au major sauf tenue : Grand-froid gendarmerie (skin U_B_SpecopsUniform_sgg -> gf_cop.paa)
+  
+-> Capitaine <-
+
+  - Armement : Mk18 + 6 chargeurs
+  - Tenue : Grand-froid gendarmerie (skin U_B_SpecopsUniform_sgg -> gf_cop.paa), bérêt police, gilet mod noir
+  - Items : Map, GPS, montre, boussole, télémètre
+  
+-> Commandant <-
+
+  Identique au capitaine sauf armement : Mk-1
+  
+-> Lieutenant-colonel <-
+
+  Identique au commandant sauf armement : MAR-10
+  
+-> Colonel <-
+
+  Identique au lieutenant-colonel
