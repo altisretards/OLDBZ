@@ -3,7 +3,8 @@
 
 TO DO :
 
-
+- Remap
+- Système de craft (+licences)
 
 - Ajouter les Textures additionnelles (GIGN + medic/pompier)
 - Modifier le menu "Y".
