@@ -3,12 +3,13 @@
 
 TO DO :
 
+
+
 - Ajouter les Textures additionnelles (GIGN + medic/pompier)
 - Modifier le menu "Y".
 - Ajouter une barre d'état. (?)
 
 (- ajout nouvelles armes Tanoa -> police)
-(- Systeme de revive https://www.youtube.com/watch?v=V_BrZ8Kzx_4)
 
 
 DONE :
