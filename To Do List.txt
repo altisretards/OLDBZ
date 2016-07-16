@@ -3,21 +3,17 @@
 
 TO DO :
 
-- Check shop rebelle (viseurs)
-- Ajouter les Textures additionnelles (par grade + véhicules)
+- Ajouter les Textures additionnelles (GIGN + medic/pompier)
 - Modifier le menu "Y".
 - Ajouter une barre d'état. (?)
-- Rendre les sacs invisibles chez les Gendarmes et les Medics.
+
 (- ajout nouvelles armes Tanoa -> police)
 (- Systeme de revive https://www.youtube.com/watch?v=V_BrZ8Kzx_4)
 
-EN COURS :
-
-- Stringtable #3077
 
 DONE :
 
-- Appliquer les textures par défaut police/medic
+- Rendre les sacs invisibles chez les Gendarmes et les Medics.
 - Un seul free slot police
 - Remanier les shops des Gendarmes en gardant les mêmes armes mais avec les restrictions correspondants aux grades.
 - Remanier le shop armurerie civile
