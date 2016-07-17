@@ -23,6 +23,8 @@ TO DO :
 
 DONE :
 
+- Ajout tenue + camion (zamak box) pompier (side medic)
+- Remaniement médic (shops + véhicules + loadout)
 - Tenue unique pour les rebelles -> https://community.bistudio.com/wiki/File:Arma3_CfgWeapons_U_O_CombatUniform_oucamo.jpg
 - Création des douaniers (equip + skin) dans les forces de police -> grade 0 (=free slot)
 - Rendre les sacs invisibles chez les Gendarmes et les Medics.
