@@ -5,7 +5,7 @@ TO DO :
 
 - Remap
 - Système de craft (+licences)
--Licence de Douanier + shop + vehicule + base.
+-Licence de Douanier + shop + vehicule + base. en cop mais avec spawn et limitté en armes et droits.
 -Licence d'avocats (500k)
 -Licence Taxi https://altisdev.com/index.php?/topic/19-suv-taxi/ pas de skin en particulier pour leur tenue mais juste un véhicule disponible après l'achat de la licence.
 -Développer le système de craft avec une chaine de métier à développer en 3 pour la première release :
