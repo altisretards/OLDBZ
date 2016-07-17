@@ -7,6 +7,7 @@ TO DO :
 - Système de craft (+licences)
 -Licence de Douanier + shop + vehicule + base.
 -Licence d'avocats (500k)
+-Licence Taxi https://altisdev.com/index.php?/topic/19-suv-taxi/ pas de skin en particulier pour leur tenue mais juste un véhicule disponible après l'achat de la licence.
 -Développer le système de craft avec une chaine de métier à développer en 3 pour la première release :
 -3 classes de craft (noms à définir) donc interdépendance obligatoire (licence 2Million) : une base qu'on appelerait marché noir ou autres pour ne pas avoir le même nom que certaines bases rebelles d'autres serv (le nom est franchement fashion donc osef) : matériaux disponibles uniquement à cet endroit , le rendez vous de tous les contrebandiers du server et du coup une possibilité pour les civils de vendre les matériaux nécessaires aux rebelles pour se fabriquer leurs armes ou autres 
 	bazard qu'on ajouterait dans le système de craft , donc du coup ça modifie complètement la façon de faire des rebelles
