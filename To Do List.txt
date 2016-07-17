@@ -18,6 +18,7 @@ TO DO :
 - Ajouter les Textures additionnelles (GIGN + medic/pompier)
 - Modifier le menu "Y".
 - Ajouter une barre d'état. (?)
+- Tenue unique pour les rebelles (?) -> https://community.bistudio.com/wiki/File:Arma3_CfgWeapons_U_O_CombatUniform_oucamo.jpg
 
 (- ajout nouvelles armes Tanoa -> police)
 
