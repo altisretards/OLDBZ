@@ -1,20 +1,18 @@
 
 TO DO :
 
-- Remap
+- Remap => inclure Zone de trade matières illégales (contrebande)
 
 - Système de craft (+licences)
 
 - Licence d'avocats (500k)
 - Licence Taxi https://altisdev.com/index.php?/topic/19-suv-taxi/ pas de skin en particulier pour leur tenue mais juste un véhicule disponible après l'achat de la licence.
 
-- Zone de trade matières illégales (contrebande)
-
 - Ajouter un son ouverture/fermeture du vehicule.
 
 - Modifier le welcome menu/virer le briefing ou placer les règles du serv / prix des matières <->Mettre la bourse dynamique.
 
-- Ajouter les Textures additionnelles GIGN
+- Trouver les Textures GIGN (intervention)
 
 - Modifier le menu "Y".
 
