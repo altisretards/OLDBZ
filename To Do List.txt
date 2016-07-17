@@ -14,8 +14,10 @@ TO DO :
 
 - Modifier le welcome menu/virer le briefing ou placer les règles du serv / prix des matières <->Mettre la bourse dynamique.
 
-- Ajouter les Textures additionnelles (GIGN + medic/pompier)
+- Ajouter les Textures additionnelles GIGN
+
 - Modifier le menu "Y".
+
 - Ajouter une barre d'état. (?)
 
 (- ajout nouvelles armes Tanoa -> police)
