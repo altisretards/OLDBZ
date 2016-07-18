@@ -15,6 +15,7 @@ Tenues: (config file: ..\core\functions\fn_playerSkins.sqf)
 Véhicules: (config file: ..\Config_Vehicles.hpp)
 
   - Camion pompier | I_Truck_02_box_F | ..textures\cam_pompier.paa ..textures\cam_pompier2.paa
+  - Quad gendarmerie | B_Quadbike_01_F | ..textures\cop_quad.jpg
   - Pickup gendarmerie | C_Offroad_01_F | ..textures\cop_pickup.jpg
   - Hayon gendarmerie | C_Hatchback_01_F | ..textures\cop_hayon.jpg
   - Hayon sport gendarmerie | C_Hatchback_01_sport_F | ..textures\cop_hayonS.jpg
