@@ -1,52 +1,58 @@
 Equipement de base par grade
 ============================
 
--> GAV <-
+-> Douane 0 <-
+
+  - Armement : P07 + 5 chargeurs
+  - Tenue : Polo gendarmerie (skin U_Rangemaster -> polo_cop.paa), casquette police, ceinture rangemaster
+  - Items : Map, GPS, montre, boussole
+
+-> GAV 1 <-
 
   - Armement : P07 + 5 chargeurs
   - Tenue : Polo gendarmerie (skin U_Rangemaster -> polo_cop.paa), casquette police, ceinture rangemaster
   - Items : Map, GPS, montre, boussole
   
--> Brigadier <-
+-> Brigadier 2 <-
 
   - Armement : SDAR + 3 chargeurs
   - Tenue : Polo gendarmerie (skin U_Rangemaster -> polo_cop.paa), casquette police, gilet pare-balles police (V_TacVest_blk_POLICE)
   - Items : Map, GPS, montre, boussole, jumelles
   
--> Brigadier-chef <-
+-> Brigadier-chef 3 <-
 
   Identique au brigadier
   
--> Adjudant <-
+-> Adjudant 4 <-
 
   - Armement : MXC + 5 chargeurs
   - Tenue : Polaire gendarmerie (skin U_B_PilotCoveralls -> polar_cop.paa), bérêt police, veste Raven
   - Items : Map, GPS, montre, boussole, télémètre
   
--> Major <-
+-> Major 5 <-
 
   - Armement : MX_SW + 1 chargeur 100 cartouches + 3 chargeurs 30 cartouches
   - Tenue : Polaire gendarmerie (skin U_B_PilotCoveralls -> polar_cop.paa), bérêt police, gilet léger noir
   - Items : Map, GPS, montre, boussole, télémètre
   
--> Lieutenant <-
+-> Lieutenant 6 <-
 
   Identique au major sauf tenue : Grand-froid gendarmerie (skin U_B_SpecopsUniform_sgg -> gf_cop.paa)
   
--> Capitaine <-
+-> Capitaine 7 <-
 
   - Armement : Mk18 + 6 chargeurs
   - Tenue : Grand-froid gendarmerie (skin U_B_SpecopsUniform_sgg -> gf_cop.paa), bérêt police, gilet mod noir
   - Items : Map, GPS, montre, boussole, télémètre
   
--> Commandant <-
+-> Commandant 8 <-
 
   Identique au capitaine sauf armement : Mk-1
   
--> Lieutenant-colonel <-
+-> Lieutenant-colonel 9 <-
 
   Identique au commandant sauf armement : MAR-10
   
--> Colonel <-
+-> Colonel 10 <-
 
   Identique au lieutenant-colonel
