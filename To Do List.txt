@@ -34,3 +34,5 @@ DONE :
 - Remanier les shops des Gendarmes en gardant les mêmes armes mais avec les restrictions correspondants aux grades.
 - Remanier le shop armurerie civile
 - Remanier l'armurerie rebelle
+
+EOF
