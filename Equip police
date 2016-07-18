@@ -7,19 +7,19 @@ config file : ..\core\cop\fn_copLoadout.sqf
 -> Douane 0 <-
 
   - Armement : P07 + 5 chargeurs
-  - Tenue : Tenue douane (skin U_O_OfficerUniform_ocamo -> douane_cop.paa), ceinture rangemaster
+  - Tenue : Tenue douane, ceinture rangemaster
   - Items : Map, GPS, montre, boussole
 
 -> GAV 1 <-
 
   - Armement : P07 + 5 chargeurs
-  - Tenue : Polo gendarmerie (skin U_Rangemaster -> polo_cop.paa), casquette police, ceinture rangemaster
+  - Tenue : Polo gendarmerie, casquette police, ceinture rangemaster
   - Items : Map, GPS, montre, boussole
   
 -> Brigadier 2 <-
 
   - Armement : SDAR + 3 chargeurs
-  - Tenue : Polo gendarmerie (skin U_Rangemaster -> polo_cop.paa), casquette police, gilet pare-balles police (V_TacVest_blk_POLICE)
+  - Tenue : Polo gendarmerie, casquette police, gilet pare-balles police (V_TacVest_blk_POLICE)
   - Items : Map, GPS, montre, boussole, jumelles
   
 -> Brigadier-chef 3 <-
@@ -29,23 +29,23 @@ config file : ..\core\cop\fn_copLoadout.sqf
 -> Adjudant 4 <-
 
   - Armement : MXC + 5 chargeurs
-  - Tenue : Polaire gendarmerie (skin U_B_PilotCoveralls -> polar_cop.paa), bérêt police, veste Raven
+  - Tenue : Uniforme gendarmerie, bérêt police, veste Raven
   - Items : Map, GPS, montre, boussole, télémètre
   
 -> Major 5 <-
 
   - Armement : MX_SW + 1 chargeur 100 cartouches + 3 chargeurs 30 cartouches
-  - Tenue : Polaire gendarmerie (skin U_B_PilotCoveralls -> polar_cop.paa), bérêt police, gilet léger noir
+  - Tenue : Uniforme gendarmerie, bérêt police, gilet léger noir
   - Items : Map, GPS, montre, boussole, télémètre
   
 -> Lieutenant 6 <-
 
-  Identique au major sauf tenue : Grand-froid gendarmerie (skin U_B_SpecopsUniform_sgg -> gf_cop.paa)
+  Identique au major
   
 -> Capitaine 7 <-
 
   - Armement : Mk18 + 6 chargeurs
-  - Tenue : Grand-froid gendarmerie (skin U_B_SpecopsUniform_sgg -> gf_cop.paa), bérêt police, gilet mod noir
+  - Tenue : Uniforme gendarmerie, bérêt police, gilet mod noir
   - Items : Map, GPS, montre, boussole, télémètre
   
 -> Commandant 8 <-
