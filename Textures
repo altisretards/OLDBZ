@@ -25,4 +25,4 @@ Véhicules: (config file: ..\Config_Vehicles.hpp)
   - Hummingbird gendarmerie | B_Heli_Light_01_F | ..textures\cop_humming.jpg
   - Orca SAMU | O_Heli_Light_02_unarmed_F | ..textures\orca_samu.paa
   
-  EOF
+EOF
