@@ -1,0 +1,17 @@
+
+=================================
+| Liste des textures appliquées |
+=================================
+
+Tenues: (config file: ..\core\functions\fn_playerSkins.sqf)
+
+  - Polo gendarme bleu ciel #[1 -10] | U_Rangemaster | ..\textures\polo_cop.paa
+  - Uniforme douanes #[0 -10] | U_O_OfficerUniform_ocamo | ..\texures\douane_cop.paa
+  - Uniforme gendarme #[4 -10] | U_B_SpecopsUniform_sgg | ..\textures\gf_cop.paa
+  
+  - Polo samu | U_Rangemaster | ..\textures\tenue_samu.paa
+  - Tenue pompier | U_C_WorkerCoveralls | ..textures\pompier.paa
+  
+Véhicules: (config file: ..\Config_Vehicles.hpp)
+
+  - 
