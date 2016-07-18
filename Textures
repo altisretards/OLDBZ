@@ -5,13 +5,24 @@
 
 Tenues: (config file: ..\core\functions\fn_playerSkins.sqf)
 
-  - Polo gendarme bleu ciel #[1 -10] | U_Rangemaster | ..\textures\polo_cop.paa
-  - Uniforme douanes #[0 -10] | U_O_OfficerUniform_ocamo | ..\texures\douane_cop.paa
-  - Uniforme gendarme #[4 -10] | U_B_SpecopsUniform_sgg | ..\textures\gf_cop.paa
+  - Polo gendarme bleu ciel | U_Rangemaster | ..\textures\polo_cop.paa
+  - Uniforme douanes | U_O_OfficerUniform_ocamo | ..\texures\douane_cop.paa
+  - Uniforme gendarme | U_B_SpecopsUniform_sgg | ..\textures\gf_cop.paa
   
   - Polo samu | U_Rangemaster | ..\textures\tenue_samu.paa
   - Tenue pompier | U_C_WorkerCoveralls | ..textures\pompier.paa
   
 Véhicules: (config file: ..\Config_Vehicles.hpp)
 
-  - 
+  - Camion pompier | I_Truck_02_box_F | ..textures\cam_pompier.paa ..textures\cam_pompier2.paa
+  - Pickup gendarmerie | C_Offroad_01_F | ..textures\cop_pickup.jpg
+  - Hayon gendarmerie | C_Hatchback_01_F | ..textures\cop_hayon.jpg
+  - Hayon sport gendarmerie | C_Hatchback_01_sport_F | ..textures\cop_hayonS.jpg
+  - SUV douanes | C_SUV_01_F | ..textures\douane_suv.paa
+  - SUV gendarmerie | C_SUV_01_F | ..textures\cop_suv.jpg
+  - Hunter GIGN | B_MRAP_01_F | ..textures\cop_hunter.jpg ..textures\cop_hunter2.jpg
+  
+  - Hummingbird gendarmerie | B_Heli_Light_01_F | ..textures\cop_humming.jpg
+  - Orca SAMU | O_Heli_Light_02_unarmed_F | ..textures\orca_samu.paa
+  
+  EOF
