@@ -1,10 +1,13 @@
-Equipement de base par grade
-============================
+================================
+| Equipement de base par grade |
+================================
+
+config file : ..\core\cop\fn_copLoadout.sqf
 
 -> Douane 0 <-
 
   - Armement : P07 + 5 chargeurs
-  - Tenue : Polo gendarmerie (skin U_Rangemaster -> polo_cop.paa), casquette police, ceinture rangemaster
+  - Tenue : Tenue douane (skin U_O_OfficerUniform_ocamo -> douane_cop.paa), ceinture rangemaster
   - Items : Map, GPS, montre, boussole
 
 -> GAV 1 <-
