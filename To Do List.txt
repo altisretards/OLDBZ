@@ -5,6 +5,8 @@ TO DO :
 
 - Système de craft (+licences)
 
+- Placement de barrières et de cônes de Gendarme http://www.altisliferpg.com/topic/11132-release-copsmedics-barrier-placeables-road-conebarrier-placement-dialogs/
+
 - Licence d'avocats (500k)
 - Licence Taxi https://altisdev.com/index.php?/topic/19-suv-taxi/ pas de skin en particulier pour leur tenue mais juste un véhicule disponible après l'achat de la licence.
 
