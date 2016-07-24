@@ -6,9 +6,47 @@ Officier:
 Intervention Lourde: 
 
 Armement Coter Civil:
+
 L'Armement Coter Civil s'organise de sorte à pouvoir Craft les armes les plus lourdes. Et une petite Licence (Prendre la licence du gun Store) d'arme (avec un prix consequent, à voir en fonction de l'economie du serv) à feux pour des petites armes. De cette maniere nous reduison l'impact des grosses armes sur le terrain mais laissons une possibilite d'armement "ridicule" pour les personnes ne trouvant pas d'interet à Craft.
 Craftable + Objet:
-Achetable av
+Ressources: Bois / Fer / Poudre / Charbons / Acier / Tabac / Argent / Cuivre
+
+- AKM 7.62                 Bois< ( ) /  Fer( ) / Petrole ( )  ////  Balle:    Cuivre ( ) / Charbons ( )
+- Mar-10 .338 (Camo)       Bois ( ) /  Fer( ) / Petrole ( )   ////  Balle:    Cuivre ( ) / Charbons ( )
+- Rahim 7.62 mm            Bois ( ) /  Fer( ) / Petrole ( )   ////  Balle:    Cuivre ( ) / Charbons ( )
+- CMR-76 6.5mm (Hex)       Bois ( ) /  Petrole( ) / Acier ( ) ////  Balle:    Cuivre ( ) / Charbons ( )
+- Zafir                    Bois ( ) /  Fer( ) / Petrole ( )   ////  Balle:    Cuivre ( ) / Charbons ( )
+- SPMG .338                Bois ( ) /  Fer( ) / Petrole ( )   ////  Balle:    Cuivre ( ) / Charbons ( )
+- Flash Bang               Fer( ) / Argent ( )
+- Fumigene Vert            Fer( ) / Tabac ( )
+
+Achetable avec licence: - Toutes les armes de poings sauf le PO7- PDW2000 9mm - SDAR 5.56mm - Vermin
+Pour les Territoire de Gang Il faut pouvoir acheter des armes. C'est une zone a risque vue que cela averti la gendarmerie et qu'elle est obliger de venir. En revanche Il faut mettre le prix des armes chère. 
+Spar 5.56 mm (Sable)
+TRG20
+Katiba 6.5mm
+
+
+Vehicule Apex à Ajouter Gendarme: 
+
+Grade: Officier -> Qilin (Noir)
+Grade: Intervention Lourde -> V-44 X Blackfish Non armé
+Grade: Millitaire du Rang -> RHIB (Noir) 
+
+Vehicule Apex à Ajouter Civil:
+
+MB 4WD 4 places et 2 places -> Dans le shop voiture
+Ceasar BTT -> Shop Air Hq pour Civil
+Scooter des mers -> Shop Bateau Pour civil
+Rhib Civil -> Shop Bateau Pour civil
+Qilin (Hex Vert) -> Shop Via Licence Véhicule Lourd
+
+/!\ Faire Une licence "Vehicule Lourd" pour pouvoir acheter à un Pnj les véhicules Blindé/Cool /!\ Prix de la Licence a definir Avec l'economie du serveur.
+Licence Véhicule Lourd:
+Qilin (Hex Vert)
+Ifrit
+Helico ( A définir)
+
 
 
 Métier légaux : Diamant, Cuivre, Fer, Sel, Pêche, Pomme,...
