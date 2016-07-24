@@ -1,9 +1,9 @@
 Armement Gendarme:
 Le shop s'organise d'une autre manière. Millitaire du rang (GAV,..,Brigadier-Chef) / Sous officier (Adjudant,...,Major) / Officier (Lieutenant,..., Colonel) / Intervention Lourde (Lieutenant-Colonel,...,Colonel)
-Millitaire Du rang: 
-Sous officier: 
-Officier: 
-Intervention Lourde: 
+Millitaire Du rang: - Protector 9mm / - Sting / - MX 6.5mm (Noir) / 
+Sous officier: - MXC 6.5mm (Noir) / - MXM 6.5mm (Noir) / - MK200 6.5mm 
+Officier: - CAR-95 5.8mm (Noir) / - MK 18 ABR 7.62mm / - SPAR-16 5.56mm / - Mk-I EMR 7.62mm (Boisé)
+Intervention Lourde:- Cyrus 9.3mm (Noir)
 
 Armement Coter Civil:
 
@@ -48,6 +48,10 @@ Ifrit
 Helico ( A définir)
 
 
+Objets craftables pour faire du cash à déterminer aussi selon ressources illégales. 
+
+Laisser des métiers avec traitement
+
 
 Métier légaux : Diamant, Cuivre, Fer, Sel, Pêche, Pomme,...
 
@@ -55,15 +59,15 @@ Métier légaux à rajouter :
 
 Or (mine,traitement,vendeur spécial)
 Charbon (mine,traitement,vendeur spécial)
-Bière( champ de houblon + champ d’orge,distillerie---vente dans un bar .)
 Argent (mine,traitement,vendeur spécial)
 Huile d’olive (champ,traitement,vente au supermarché)
-Vins (champ,traitement,revente au bar )<
-Tabac(champ,traitement,vendeur spécial)
+Vins (champ,traitement,revente au bar )
+Tabac(champ,traitement,Vente au supermarché)
+Pastis (champ d’anis ---traitement---vendre au bar)
 
 pas urgent:
+Bière( champ de houblon + champ d’orge,distillerie---vente dans un bar .)
 Pharmacie (vente direct d’ephedrine,légale ,licence obligatoire)
-Pastis (champ d’anis ---traitement---vendre au bar)
 Licence pilote (société gérée,avion+helico disponible après apprentissage basique 
 Banque de financement pour entreprise(admin,modo:fournir la somme à crédit aux chef d’entreprise afin de démarrer ,remboursement quotidien de xx euro à la banque)
 Taxi (société gérée ,skin spécial,les sociétés doivent être connue des admin max 3,attention n’importe qui peut devenir taxi via un skin ,travail au noir possible)(mention taxi + pseudo obligatoire)
@@ -74,7 +78,7 @@ Boucher (en rapport avec la chasse ,une fois la viande lootée celui qui la reve
 Activités
 Lotterie nationale (forum)
 Casino(même système avec plusieurs choix de montant et des victoires plus fréquente mais moins importante)
-Paintball(sauf si mod obligatoire)
+Paintball (sauf si mod obligatoire)
 
 Entreprise, à définir pas urgent :
 Tourisme (société gérée ,avion apex + helico,randonnée,tenue et sac spécial,parachutisme,plongée)
@@ -97,17 +101,3 @@ Pas urgent:
 Travail au noir (géré par le RP)
 Contrebande de cigarettes sans licence
 Contrebande de haute technologie : il existe un scrypt qui parachute une caisse,mettre un objet x et le renommer dans tout les cas ‘Technologie’,placer un acheteur de technologie un ‘informaticien’ou autre ,la personne qui récupère le contenu et le vend touche une somme de x million ,un seul parachutage par reboot ,pas de licence mais hautement dangereux en raison de sa convoitise.
-
-
-MAPPING POUR Pas Nos Rats Mixes : 
-
--Mettre la ville en lumière.
--Ajouter un camp propre pour chaque zone de traitement illégales.
--Changer la prison.
--Faire un belle frontiere en mode Pulse.
--Modifier les panneaux en PNJ.
--Modifier les skins de PNJ gendarme.
--Créer une zone commerciale à proximité de la Frontière.
--Créer une zone de bureaux d’affaires pour les futures entreprises.
--Faire le tour des tous les pnjs pour voir si ils sont bien en places.
-
