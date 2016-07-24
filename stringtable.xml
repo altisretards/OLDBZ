@@ -2015,1286 +2015,592 @@
       <Original>Fouiller Container</Original>
     </Key>
     <Key ID="STR_vInAct_PullOut">
-      <Original>Pullout Players</Original>
-      <German>Aus Fahrzeug ziehen</German>
-      <French>Sortir Personnes</French>
-      <Italian>Estrai Giocatore</Italian>
-      <Portuguese>Retirar Jogadores</Portuguese>
-      <Polish>Wyciągnij graczy</Polish>
+      <Original>Extraire les individus</Original>
     </Key>
     <Key ID="STR_vInAct_Impound">
-      <Original>Impound Vehicle</Original>
-      <German>Fahrzeug beschlagnahmen</German>
-      <French>Mise en fourrière</French>
-      <Italian>Sequestra Veicolo</Italian>
-      <Portuguese>Apreender Veículo</Portuguese>
-      <Polish>Usunń pojazd</Polish>
+      <Original>Mise en fourrière</Original>
     </Key>
     <Key ID="STR_vInAct_DeviceMine">
-      <Original>Mine from device</Original>
-      <German>Vom Gerät abbauen</German>
-      <French>Dispositif de minage</French>
-      <Italian>Piazza mine dal veicolo</Italian>
-      <Portuguese>Minerar</Portuguese>
-      <Polish>Uruchom wydobycie</Polish>
+      <Original>Dispositif de minage</Original>
     </Key>
   </Package>
   <Package name="Session_Strings">
     <Key ID="STR_Session_Query">
-      <Original>Sending request to server for player information UID [%1]</Original>
-      <German>Frage Spieler Informationen zu UID [%1] ab</German>
-      <French>Envoi de la requête au serveur pour obtenir des informations lecteur UID [%1]</French>
-      <Italian>Invio richiesta al server per le informazioni del giocatore UID [%1]</Italian>
-      <Portuguese>Obtendo informações do UID [%1] no servidor</Portuguese>
-      <Polish>Wysyłam żądanie do serwera po informację o fraczu UID [%1]</Polish>
+      <Original>Envoi de la requête au serveur pour obtenir des informations lecteur UID [%1]</Original>
     </Key>
     <Key ID="STR_Session_QueryFail">
-      <Original>The server didn't find any player information matching your UID, attempting to add player to system.</Original>
-      <German>Der Server hat keine Spieler Informationen zu deiner UID gefunden, versuche, Spieler ins System hinzuzufügen.</German>
-      <French>Le serveur n'a pas trouvé toutes les informations de lecteur correspondant à votre UID, tentative d'ajout du joueur dans le système.</French>
-      <Italian>Il server non ha trovato alcuna informazione sul giocatore con il tuo UID, tentativo di aggiunta del giocatore al sistema.</Italian>
-      <Portuguese>O servidor não encontrou nenhuma informação correspondente ao seu UID, tentando adicionar jogador ao sistema.</Portuguese>
-      <Polish>Serwer nie odnalazł informacji zgodnych z UID, dodaję gracza do bazy danych.</Polish>
+      <Original>Le serveur n'a pas trouvé toutes les informations de lecteur correspondant à votre UID, tentative d'ajout du joueur dans le système.</Original>
     </Key>
     <Key ID="STR_Session_Error">
-      <Original>There was an error in trying to setup your client.</Original>
-      <German>Es gab einen Fehler beim Versuch, deinen Client einzurichten.</German>
-      <French>Il y avait une erreur en essayant de configurer votre client.</French>
-      <Italian>C'è stato qualche errore nel cercare di inizializzare il tuo client</Italian>
-      <Portuguese>Ocorreu um erro ao tentar configurar o seu cliente.</Portuguese>
-      <Polish>Wystąpił błąd w trakcie ustawiania klienta</Polish>
+      <Original>Il y avait une erreur en essayant de configurer votre client.</Original>
     </Key>
     <Key ID="STR_Session_Received">
-      <Original>Received request from server... Validating...</Original>
-      <German>Empfangene Daten vom Server... Überprüfe...</German>
-      <French>Demande reçue du serveur... Validation...</French>
-      <Italian>Ricevuta richiesta dal server... Convalida...</Italian>
-      <Portuguese>Pedido recebido do servidor... Validando...</Portuguese>
-      <Polish>Otrzymano żądanie serwera ... sprawdzam</Polish>
+      <Original>Demande reçue du serveur... Validation...</Original>
     </Key>
     <Key ID="STR_Session_SyncdAlready">
-      <Original>You have already used the sync option, you can only use this feature once every 5 minutes.</Original>
-      <German>Du hast bereits die Sync-Option verwendet, diese Funktion kann nur einmal alle 5 Minuten verwendet werden.</German>
-      <French>Vous avez déjà utilisé l'option de synchronisation, vous ne pouvez utiliser cette fonction une fois toutes les 5 minutes.</French>
-      <Italian>Hai già utilizzato la funzione di salva dati, puoi usare quest'opzione solo una volta ogni 5 minuti.</Italian>
-      <Portuguese>Você já usou a opção de sincronização, você só pode usar esse recurso uma vez a cada 5 minutos.</Portuguese>
-      <Polish>Użyłeś niedawno opcji synchronizacji, możesz jej używać maksymalnie co 5 minut.</Polish>
+      <Original>Vous avez déjà utilisé l'option de synchronisation, vous ne pouvez utiliser cette fonction une fois toutes les 5 minutes.</Original>
     </Key>
     <Key ID="STR_Session_SyncCheater">
-      <Original>Because of some cheater corrupting the BIS MP Framework they have stopped you from enjoying our mission.\n\nYou can try this again in a minute if you feel it is a mistake.</Original>
-      <German>Wegen einiger Cheater ist das BIS MP Framework beschädigt. Versuche es in einer Minute nochmal.</German>
-      <French>En raison de certains tricheur tentant corrompre le BIS MP Framework,ils vous ont empêché de profiter de notre mission.\n\nVous pouvez essayer ce nouveau dans une minute si vous pensez que c'est une erreur.</French>
-      <Italian>A causa di qualche cheater che ha corrotto il BIS MP Framework il tuo divertimento in questa missione finisce qui per ora.\n\nPuoi provare a rientrare a breve se pensi sia un errore.</Italian>
-      <Portuguese>Por conta de alguns trapaceiros corrompendo o BIS MP Framework eles pararam de desfrutar a nossa missão.\n\nVocê pode tentar de novo em um minuto se achar que isso é um engano.</Portuguese>
-      <Polish>Z uwagi na to że niektórzy hakerzy psują BIS MP Framework zatrzymują możliwość zabawy na serwerze.\n\nMożesz spróbować ponowni za minutę jeśli uważasz to za błąd</Polish>
+      <Original>En raison de certains tricheur tentant corrompre le BIS MP Framework,ils vous ont empêché de profiter de notre mission.\n\nVous pouvez essayer ce nouveau dans une minute si vous pensez que c'est une erreur.</Original>
     </Key>
     <Key ID="STR_Session_SyncData">
-      <Original>Syncing player information to the server.\n\nPlease wait up to 20 seconds before leaving.</Original>
-      <German>Synchronisieren der Spieler Informationen mit dem Server. \n\nBitte warte bis zu 20 Sekunden vor dem Ausloggen.</German>
-      <French>Synchronisation des informations de joueur sur le serveur.\n\nS'il vous plaît veuiller attendre 20 secondes avant de quitter.</French>
-      <Italian>Salvando le informazioni giocatore sul server.\n\nAttendere fino a 20 secondi prima di abbandonare.</Italian>
-      <Portuguese>Sincronizando informação do jogador com o servidor.\n\n Por favor aguarde 20 segundos antes de sair.</Portuguese>
-      <Polish>Synchronizuję informację z serwere, .\n\nProszę poczekać ok 20 sekund przed opuszczeniem serwera</Polish>
+      <Original>Synchronisation des informations de joueur sur le serveur.\n\nS'il vous plaît veuiller attendre 20 secondes avant de quitter.</Original>
     </Key>
   </Package>
   <Package name="Shop_Strings">
     <Key ID="STR_Shop_ATMRobbed">
-      <Original>Because you robbed the bank you can't use the ATM for %1 minutes.</Original>
-      <German>Da du die Bank ausgeraubt hast, kannst du für %1 Minuten keine Bankomaten benutzen.</German>
-      <French>Vous avez pillé la banque, vous ne pouvez pas utiliser le guichet automatique pendant %1 minutes.</French>
-      <Italian>Avendo appena rapinato la banca non puoi utilizzare il Bancomat per %1 minuti.</Italian>
-      <Portuguese>Você não pode usar o ATM por %1 minutos, pois você assaltou o banco.</Portuguese>
-      <Polish>Z uwagi na to że okradłeś bank nie możesz korzystać z bankomatu przez najbliższe %1 minut.</Polish>
+      <Original>Vous avez pillé la banque, vous ne pouvez pas utiliser le guichet automatique pendant %1 minutes.</Original>
     </Key>
     <Key ID="STR_Shop_NoClothes">
-      <Original>You didn't choose the clothes you wanted to buy.</Original>
-      <German>Du hast die Kleidung, die du kaufen wolltest, nicht ausgewählt.</German>
-      <French>Vous n'avez pas choisi les vêtements que vous vouliez acheter.</French>
-      <Italian>Non hai selezionato i vestiti che vuoi comprare.</Italian>
-      <Portuguese>Você não selecionou a roupa que deseja comprar.</Portuguese>
-      <Polish>Nie wybrałeś ubrań które chcesz kupić.</Polish>
+      <Original>Vous n'avez pas choisi les vêtements que vous vouliez acheter.</Original>
     </Key>
     <Key ID="STR_Shop_NotEnoughClothes">
-      <Original>Sorry sir, you don't have enough money to buy those clothes.</Original>
-      <German>Entschuldigung, du hast nicht genug Geld, um diese Kleidung zu kaufen.</German>
-      <French>Désolé monsieur, vous n'avez pas assez d'argent pour acheter ces vêtements.</French>
-      <Italian>Spiacente ma non hai fondi a sufficienza per comprare questi vestiti.</Italian>
-      <Portuguese>Desculpe senhor, você não tem dinheiro para pagar. Volte sempre.</Portuguese>
-      <Polish>Przepraszam, ale nie masz tyle pieniędzy aby kupić to ubranie.</Polish>
+      <Original>Désolé monsieur, vous n'avez pas assez d'argent pour acheter ces vêtements.</Original>
     </Key>
     <Key ID="STR_Shop_Total">
       <Original>Total:</Original>
-      <German>Gesamt:</German>
-      <French>Total:</French>
-      <Italian>Totale:</Italian>
-      <Portuguese>Total:</Portuguese>
-      <Polish>Razem:</Polish>
     </Key>
     <Key ID="STR_Shop_NoSelection">
-      <Original>No Selection</Original>
-      <German>Keine Auswahl</German>
-      <French>Aucune Sélection</French>
-      <Italian>Nessuna Selezione</Italian>
-      <Portuguese>Nada Selecionado</Portuguese>
-      <Polish>Nie wybrano</Polish>
+      <Original>Aucune Sélection</Original>
     </Key>
     <Key ID="STR_Shop_NoDisplay">
-      <Original>No Display</Original>
-      <German>Keine Anzeige</German>
-      <French>Pas d'affichage</French>
-      <Italian>No Display</Italian>
-      <Portuguese>Sem exibir</Portuguese>
-      <Polish>Brak widoku</Polish>
+      <Original>Pas d'affichage</Original>
     </Key>
     <Key ID="STR_Shop_NoVehNear">
-      <Original>There are no vehicles near to sell.</Original>
-      <German>Es ist keine Fahrzeug zum Verkaufen in der Nähe.</German>
-      <French>Il n'y a pas de véhicules à proximité à vendre</French>
-      <Italian>Nelle vicinanze non ci sono veicoli da vendere.</Italian>
-      <Portuguese>Não existem veículos para serem vendidos.</Portuguese>
-      <Polish>W pobliżu nie ma pojazdu do sprzedania.</Polish>
+      <Original>Il n'y a pas de véhicules à proximité à vendre</Original>
     </Key>
     <Key ID="STR_Shop_ChopShopError">
-      <Original>There was a problem opening the chop shop menu.</Original>
-      <German>Es gab ein Problem beim Öffnen des illegalen Fahrzeughändler-Menüs.</German>
-      <French>Il y a un probleme en ouvrant le menu du concessionnaire de véhicule illégal.</French>
-      <Italian>C'è stato un problema aprendo il menu del ricettatore</Italian>
-      <Portuguese>Ocorreu um problema abrindo o menu, tente novamente.</Portuguese>
-      <Polish>Powstał problem przy otwieraniu menu dziupli</Polish>
+      <Original>Il y a un probleme en ouvrant le menu du concessionnaire de véhicule illégal.</Original>
     </Key>
     <Key ID="STR_Shop_ChopShopSelling">
-      <Original>Selling vehicle please wait...</Original>
-      <German>Verkaufe Fahrzeug, bitte warten...</German>
-      <French>Vente du véhicule, veuillez patienter...</French>
-      <Italian>Vendendo il veicolo, attendere prego...</Italian>
-      <Portuguese>Vendendo o veiculo, aguarde....</Portuguese>
-      <Polish>Sprzedaję pojazd proszę czekać ...</Polish>
+      <Original>Vente du véhicule, veuillez patienter...</Original>
     </Key>
     <Key ID="STR_Shop_NotaCiv">
-      <Original>You need to be a civilian to use this store!</Original>
-      <German>Du musst ein Zivilist sein, um diesen Shop nutzen zu können!</German>
-      <French>Vous devez être un civil pour utiliser ce magasin!</French>
-      <Italian>Devi essere un civile per utilizzare questo negozio!</Italian>
-      <Portuguese>Você tem que ser um cívil para user essa loja!</Portuguese>
-      <Polish>Musisz być cywilem aby móc kupować w tym sklepie!</Polish>
+      <Original>Vous devez être un civil pour utiliser ce magasin!</Original>
     </Key>
     <Key ID="STR_Shop_NotaCop">
-      <Original>You need to be a cop to use this store!</Original>
-      <German>Du musst ein Polizist sein, um diesen Shop nutzen zu können!</German>
-      <French>Vous devez être un flic pour utiliser ce magasin!</French>
-      <Italian>Devi essere un poliziotto per utilizzare questo negozio!</Italian>
-      <Portuguese>Você tem que ser um policial para usar essa loja!</Portuguese>
-      <Polish>Musisz być policjantem aby kupować w tym sklepie!</Polish>
+      <Original>Vous devez être un Gendarme pour utiliser ce magasin!</Original>
     </Key>
     <Key ID="STR_Shop_NotaReb">
-      <Original>You don't have rebel training yet!</Original>
-      <German>Du besitzt keine Rebellen Lizenz!</German>
-      <French>Vous n'avez pas encore d'entrainement rebelle!</French>
-      <Italian>Devi essere ribelle per poter utilizzare questo negozio!</Italian>
-      <Portuguese>Você não tem Treinamento Rebelde!</Portuguese>
-      <Polish>Nie posiadasz treningu rebelianta!</Polish>
+      <Original>Vous n'avez pas encore d'entrainement Contrebandier!</Original>
     </Key>
     <Key ID="STR_Shop_NotaDive">
-      <Original>You need a Diving license to use this shop!</Original>
-      <German>Du benötigst eine Taucherlizenz, um diesen Tauchershop nutzen zu können!</German>
-      <French>Vous devez avoir votre diplome de plongée pour utiliser ce magasin!</French>
-      <Italian>Ti serve la licenza di pesca per usare questo negozio!</Italian>
-      <Portuguese>Você precisa de uma Licença de Mergulho para usar essa loja!</Portuguese>
-      <Polish>Nie posiadasz licencji nurka aby kupować w tym sklepie!</Polish>
+      <Original>Vous devez avoir votre diplôme de plongée pour utiliser ce magasin!</Original>
     </Key>
     <Key ID="STR_Shop_YouNeed">
-      <Original>You need a %1 to buy from this shop!</Original>
-      <German>Du benötigst eine %1, um diesen Shop nutzen zu können!</German>
-      <French>Vous avez besoin de %1 pour acheter dans ce magasin</French>
-      <Italian>Hai bisogno di %1 per comprare da questo negozio!</Italian>
-      <Portuguese>Você precisa de %1 para comprar nessa loja!</Portuguese>
-      <Polish>Potrzebujesz %1 by kupować w tym sklepie!</Polish>
+      <Original>Vous avez besoin de %1 pour acheter dans ce magasin</Original>
     </Key>
     <Key ID="STR_Shop_UI_Clothing">
-      <Original>Clothing</Original>
-      <German>Kleidung</German>
-      <French>Tenues</French>
-      <Italian>Abiti</Italian>
-      <Portuguese>Roupas</Portuguese>
-      <Polish>Odzież</Polish>
+      <Original>Tenues</Original>
     </Key>
     <Key ID="STR_Shop_UI_Hats">
-      <Original>Hats</Original>
-      <German>Kopfbedeckungen</German>
-      <French>Chapeaux</French>
-      <Italian>Copricapi</Italian>
-      <Portuguese>Chapéus</Portuguese>
-      <Polish>Czapki</Polish>
+      <Original>Chapeaux</Original>
     </Key>
     <Key ID="STR_Shop_UI_Glasses">
-      <Original>Glasses</Original>
-      <German>Brillen</German>
-      <French>Lunettes</French>
-      <Italian>Occhiali</Italian>
-      <Portuguese>Óculos</Portuguese>
-      <Polish>Okulary</Polish>
+      <Original>Lunettes</Original>
     </Key>
     <Key ID="STR_Shop_UI_Vests">
-      <Original>Vests</Original>
-      <German>Westen</German>
-      <French>Gilet</French>
-      <Italian>Vesti</Italian>
-      <Portuguese>Coletes</Portuguese>
-      <Polish>Kamizelki</Polish>
+      <Original>Gilets</Original>
     </Key>
     <Key ID="STR_Shop_UI_Backpack">
-      <Original>Backpack</Original>
-      <German>Rucksack</German>
-      <French>Sac-à-dos</French>
-      <Italian>Zaini</Italian>
-      <Portuguese>Mochilas</Portuguese>
-      <Polish>Plecaki</Polish>
+      <Original>Sac-à-dos</Original>
     </Key>
     <Key ID="STR_Shop_Unimpound_VehExist">
-      <Original>There is currently a car there.</Original>
-      <German>Es steht bereits ein Fahrzeug dort.</German>
-      <French>Il y a actuellement une voiture.</French>
-      <Italian>C'è già un veicolo qui.</Italian>
-      <Portuguese>Há um veiculo atualmente no respawn.</Portuguese>
-      <Polish>Aktualnie jest tam samochód.</Polish>
+      <Original>Il y a actuellement une voiture.</Original>
     </Key>
     <Key ID="STR_Shop_Unimpound_NotEnough">
-      <Original>You do not have enough money on you or in your bank to get your car back.</Original>
-      <German>Du hast nicht genug Geld bei dir oder auf dem Bankkonto, um dein Auto auszulösen.</German>
-      <French>Vous n'avez pas assez d'argent sur vous ou dans votre banque pour obtenir votre voiture</French>
-      <Italian>Non hai abbastanza fondi alla mano o nel tuo conto in banca per poter riavere il tuo veicolo.</Italian>
-      <Portuguese>Você não tem dinheiro suficiente em sua conta bancária para obter seu veiculo.</Portuguese>
-      <Polish>Nie masz tyle pieniędzy na koncie aby wyciągnąć samochód.</Polish>
+      <Original>Vous n'avez pas assez d'argent sur vous ou à la banque pour récupérer votre voiture</Original>
     </Key>
     <Key ID="STR_Shop_Unimpound_Success">
-      <Original>You have unimpounded your %1 for $%3</Original>
-      <German>Du hast deinen %1 für $%3 ausgelöst</German>
-      <French>Vous avez sorti votre %1 pour $%3</French>
-      <Italian>Hai ritirato dal sequestro il tuo %1 al costo di €%3</Italian>
-      <Portuguese>Você liberou %1 for R$%3</Portuguese>
-      <Polish>Przywróciłeś swój %1 za $%3</Polish>
+      <Original>Vous avez sorti votre %1 pour %3€</Original>
     </Key>
     <Key ID="STR_Shop_Veh_DidntPick">
-      <Original>You did not pick a vehicle!</Original>
-      <German>Du hast kein Fahrzeug ausgewählt!</German>
-      <French>Vous n'avez pas choisi de véhicule!</French>
-      <Italian>Non hai selezionato un veicolo!</Italian>
-      <Portuguese>Você não conseguiu roubar o veiculo!</Portuguese>
-      <Polish>Nie wybrałeś pojazdu!</Polish>
+      <Original>Vous n'avez pas choisi de véhicule!</Original>
     </Key>
     <Key ID="STR_Shop_Veh_NotEnough">
-      <Original>You do not have enough cash to purchase this vehicle.\n\nAmount Lacking: $%1</Original>
-      <German>Du hast nicht genug Geld, um das Fahrzeug zu kaufen.\n\nFehlender Betrag: $%1</German>
-      <French>Vous n'avez pas assez d'argent pour acheter ce véhicule \n\nArgent Manquant: $%1</French>
-      <Italian>Non hai fondi sufficienti per comprare questo veicolo.\n\nTi mancano: €%1</Italian>
-      <Portuguese>Você não tem dinheiro suficiente para comprar esse veiculo.\n\nFaltam: R$%1</Portuguese>
-      <Polish>Nie masz tyle pieniędzy by kupić ten pojazd.\n\nBrakuje: $%1</Polish>
+      <Original>Vous n'avez pas assez d'argent pour acheter ce véhicule \n\nArgent Manquant: %1€</Original>
     </Key>
     <Key ID="STR_Shop_Veh_NoLicense">
-      <Original>You do not have the required license!</Original>
-      <German>Du besitzt die benötigte Lizenz nicht!</German>
-      <French>Vous n'avez pas la licence requise!</French>
-      <Italian>Non hai la licenza richiesta per l'acquisto!</Italian>
-      <Portuguese>Você não tem a licença necessária!</Portuguese>
-      <Polish>Nie posiadasz odpowiedniej licencji!</Polish>
+      <Original>Vous n'avez pas la licence requise!</Original>
     </Key>
     <Key ID="STR_Shop_Veh_Block">
-      <Original>There is a vehicle currently blocking the spawn point</Original>
-      <German>Ein Fahrzeug blockiert gerade den Spawnpunkt</German>
-      <French>Il y a actuellement un véhicule qui bloque le point de spawn</French>
-      <Italian>C'è già un veicolo che blocca la zona di spawn</Italian>
-      <Portuguese>Existe um veiculo bloquenado a area de respaw</Portuguese>
-      <Polish>Inny pojazd blokuje miejsce odrodzenia pojazdów</Polish>
+      <Original>Il y a actuellement un véhicule qui bloque la sortie de Garage</Original>
     </Key>
     <Key ID="STR_Shop_Veh_Bought">
-      <Original>You bought a %1 for $%2</Original>
-      <German>Du kaufst eine(n) %1 für $%2</German>
-      <French>Vous avez acheté un %1 pour $%2</French>
-      <Italian>Hai comprato un %1 al costo di €%2</Italian>
-      <Portuguese>Você comprou %1 por R$%2</Portuguese>
-      <Polish>Kupiłeś %1 za $%2</Polish>
+      <Original>Vous avez acheté un %1 pour %2€</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_Rental">
-      <Original>Rental Price:</Original>
-      <German>Mietpreis:</German>
-      <French>Prix de location:</French>
-      <Italian>Costo Noleggio:</Italian>
-      <Portuguese>Alugar:</Portuguese>
-      <Polish>Wypożyczenie:</Polish>
+      <Original>Prix de la location:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_Ownership">
-      <Original>Ownership Price:</Original>
-      <German>Kaufpreis:</German>
-      <French>Prix d'achat:</French>
-      <Italian>Costo Acquisto:</Italian>
-      <Portuguese>Comprar:</Portuguese>
-      <Polish>Kupno:</Polish>
+      <Original>Prix d'achat:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_MaxSpeed">
-      <Original>Max Speed:</Original>
-      <German>Max. Geschwindigkeit:</German>
-      <French>Vitesse Max:</French>
-      <Italian>Velocità Max:</Italian>
-      <Portuguese>Velocidade Máxima:</Portuguese>
-      <Polish>Prędkość:</Polish>
+      <Original>Vitesse Max:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_HPower">
-      <Original>Horse Power:</Original>
-      <German>Pferdestärken:</German>
-      <French>Puissance en chevaux:</French>
-      <Italian>Cavalli:</Italian>
-      <Portuguese>Cavalos de Força:</Portuguese>
-      <Polish>Moc:</Polish>
+      <Original>Puissance en chevaux:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_PSeats">
-      <Original>Passenger Seats:</Original>
-      <German>Passagierplätze:</German>
-      <French>Sieges passager:</French>
-      <Italian>Sedili passeggeri:</Italian>
-      <Portuguese>Assentos:</Portuguese>
-      <Polish>Ilość miejsc:</Polish>
+      <Original>Sièges passager:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_Trunk">
-      <Original>Trunk Capacity:</Original>
-      <German>Kofferraumgröße:</German>
-      <French>Capacité du coffre:</French>
-      <Italian>Capacità Inventario:</Italian>
-      <Portuguese>Capacidade do Inventário:</Portuguese>
-      <Polish>Pojemność bagażnika:</Polish>
+      <Original>Capacité du coffre:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_Fuel">
-      <Original>Fuel Capacity:</Original>
-      <German>Tankgröße:</German>
-      <French>Capacité du réservoir:</French>
-      <Italian>Capacità Serbatoio:</Italian>
-      <Portuguese>Capacidade do Reservatório:</Portuguese>
-      <Polish>Pojemność baku:</Polish>
+      <Original>Capacité du réservoir:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_Armor">
-      <Original>Armor Rating:</Original>
-      <German>Panzerungsbewertung:</German>
-      <French>Blindage:</French>
-      <Italian>Resistenza:</Italian>
-      <Portuguese>Resistência:</Portuguese>
-      <Polish>Pancerz</Polish>
+      <Original>Blindage:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_RetrievalP">
-      <Original>Retrieval Price:</Original>
-      <German>Einstellpreis:</German>
-      <French>Prix de sortie:</French>
-      <Italian>Costo di ritiro:</Italian>
-      <Portuguese>Preço para Recuperar:</Portuguese>
-      <Polish>Koszt wyciągnięcia:</Polish>
+      <Original>Prix de sortie:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_SellP">
-      <Original>Sell Price:</Original>
-      <German>Verkaufspreis:</German>
-      <French>Prix de vente</French>
-      <Italian>Costo di vendita:</Italian>
-      <Portuguese>Preço de Venda</Portuguese>
-      <Polish>Cena sprzedaży:</Polish>
+      <Original>Prix de vente:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_UI_Color">
-      <Original>Color:</Original>
-      <German>Farbe:</German>
-      <French>Couleur</French>
-      <Italian>Colore:</Italian>
-      <Portuguese>Cor:</Portuguese>
-      <Polish>Kolor</Polish>
+      <Original>Couleur:</Original>
     </Key>
     <Key ID="STR_Shop_Veh_NotAllowed">
-      <Original>You are not allowed to use this shop!</Original>
-      <German>Du bist nicht befugt, diesen Shop zu benutzen!</German>
-      <French>Vous n'êtes pas autorisé à utiliser cette boutique!</French>
-      <Italian>Non sei autorizzato ad usare questo negozio!</Italian>
-      <Portuguese>Você não está autorizado a utilizar essa loja!</Portuguese>
-      <Polish>Nie jesteś uprawniony do używania tego sklepu!</Polish>
+      <Original>Vous n'êtes pas autorisé à utiliser cette boutique!</Original>
     </Key>
     <Key ID="STR_Shop_Virt_Nothing">
-      <Original>You need to select an item to buy.</Original>
-      <German>Du musst einen Gegenstand auswählen, um ihn zu kaufen.</German>
-      <French>Vous devez selectionner un objet pour l'acheter.</French>
-      <Italian>Seleziona un oggetto per poterlo comprare.</Italian>
-      <Portuguese>Você precisa selecionar um item para comprar.</Portuguese>
-      <Polish>Musisz zaznaczyć co chcesz kupić.</Polish>
+      <Original>Vous devez sélectionner un objet pour l'acheter.</Original>
     </Key>
     <Key ID="STR_Shop_Virt_NoNum">
-      <Original>You didn't enter an actual number</Original>
-      <German>Du hast keine echte Zahl eingegeben</German>
-      <French>Vous n'avez pas saisi un nombre réel</French>
-      <Italian>Non hai inserito correttamente un numero</Italian>
-      <Portuguese>Você não digitou um número válido.</Portuguese>
-      <Polish>Nie podałeś aktualnego numeru</Polish>
+      <Original>Vous n'avez pas saisi un nombre réel.</Original>
     </Key>
     <Key ID="STR_Shop_Virt_NotEnough">
-      <Original>You don't have that many items to sell!</Original>
-      <German>Du hast nicht so viele Gegenstände zum Verkaufen!</German>
-      <French>Vous n'avez pas autant d'articles à vendre!</French>
-      <Italian>Non hai tutti quegli oggetti da vendere!</Italian>
-      <Portuguese>Você não tem todos esse items para vender</Portuguese>
-      <Polish>Nie masz tak dużo rzeczy do sprzedania!</Polish>
+      <Original>Vous n'avez pas autant d'articles à vendre!</Original>
     </Key>
     <Key ID="STR_Shop_Virt_Gang_FundsMSG">
-      <Original>The gang has enough funds to pay for this, would you like to pay with the gangs funds or your own?</Original>
-      <German>Die Gang hat genügend Geld, um dafür zu zahlen. Willst du mit dem Geld der Gang oder deinem eigenen bezahlen?</German>
-      <French>Le gang a suffisamment de fonds pour payer pour cela, voulez-vous payer avec les fonds de gangs ou les vôtres?</French>
-      <Italian>La Gang ha fondi a sufficienza per pagare questo, vuoi usare i fondi della Gang o i tuoi personali?</Italian>
-      <Portuguese>A Gangue tem dinheiro suficiente para pagar por isso, você gostaria de usar o dinheiro da Gangue?</Portuguese>
-      <Polish>Gang posiada wystarczającą ilość środków aby za to zapłacić, chcesz zapłacić za to środkami gangu, czy własnymi?</Polish>
+      <Original>Le gang a suffisamment de fonds pour payer pour cela, voulez-vous payer avec les fonds de gangs ou les vôtres?</Original>
     </Key>
     <Key ID="STR_Shop_Virt_Gang_Funds">
-      <Original>Gang Funds:</Original>
-      <German>Geld der Gang:</German>
-      <French>Fonds du gang:</French>
-      <Italian>Fondi Gang:</Italian>
-      <Portuguese>Fundos da Gangue:</Portuguese>
-      <Polish>Środki gangu:</Polish>
+      <Original>Fonds du gang:</Original>
     </Key>
     <Key ID="STR_Shop_Virt_YourFunds">
-      <Original>Your Cash:</Original>
-      <German>Bargeld:</German>
-      <French>Votre argent:</French>
-      <Italian>Tuoi Fondi:</Italian>
-      <Portuguese>Seu Dinheiro:</Portuguese>
-      <Polish>Twoje środki:</Polish>
+      <Original>Votre argent:</Original>
     </Key>
     <Key ID="STR_Shop_Virt_YourorGang">
-      <Original>Pay with cash or gang funds</Original>
-      <German>Mit Bargeld oder Geld der Gang bezahlen</German>
-      <French>Payez avec votre argent ou avec les fonds du gangs</French>
-      <Italian>Paga con i tuoi contanti o i fondi della Gang</Italian>
-      <Portuguese>Pagar com a sua conta ou a da Gangue</Portuguese>
-      <Polish>Zapłać gotówką albo środkami gangu</Polish>
+      <Original>Payez avec votre argent ou avec les fonds du gangs</Original>
     </Key>
     <Key ID="STR_Shop_Virt_UI_GangFunds">
-      <Original>Gang Funds</Original>
-      <German>Geld der Gang</German>
-      <French>Fonds du gang:</French>
-      <Italian>Fondi Gang</Italian>
-      <Portuguese>Gangue</Portuguese>
-      <Polish>Środki gangu</Polish>
+      <Original>Fonds du gang:</Original>
     </Key>
     <Key ID="STR_Shop_Virt_UI_YourCash">
-      <Original>Your Cash</Original>
-      <German>Bargeld</German>
-      <French>Votre argent</French>
-      <Italian>Tuoi Fondi</Italian>
-      <Portuguese>Seu</Portuguese>
-      <Polish>Twoje środki</Polish>
+      <Original>Votre argent</Original>
     </Key>
     <Key ID="STR_Shop_Virt_BoughtGang">
-      <Original>You bought %1 %2 for $%3 with the gangs funds</Original>
-      <German>Du kaufst %1 %2 für $%3 mit dem Geld der Gang</German>
-      <French>Vous avez acheté %1 %2 pour $%3 avec les fonds gangs</French>
-      <Italian>Hai comprato %1 %2 al costo di €%3 con i fondi della Gang</Italian>
-      <Portuguese>Você comprou %1 %2 por R$%3 com o dinheiro da gangue</Portuguese>
-      <Polish>Kupiłeś %1 %2 za $%3 ze środków gangu</Polish>
+      <Original>Vous avez acheté %1 %2 pour %3€ avec les fonds du gang</Original>
     </Key>
     <Key ID="STR_Shop_Virt_BoughtItem">
-      <Original>You bought %1 %2 for $%3</Original>
-      <German>Du kaufst %1 %2 für $%3</German>
-      <French>Vous avez acheté %1 %2 pour $%3</French>
-      <Italian>Hai comprato %1 %2 al costo di €%3</Italian>
-      <Portuguese>Voce comprou %1 %2 por R$%3</Portuguese>
-      <Polish>Kupiłeś %1 %2 za $%3</Polish>
+      <Original>Vous avez acheté %1 %2 pour %3€</Original>
     </Key>
     <Key ID="STR_Shop_Virt_SellItem">
-      <Original>You sold %1 %2 for $%3</Original>
-      <German>Du verkaufst %1 %2 für $%3</German>
-      <French>Vous avez vendu %1 %2 pour $%3</French>
-      <Italian>Hai venduto %1 %2 al prezzo di €%3</Italian>
-      <Portuguese>Você vendeu %1 %2 por R$%3</Portuguese>
-      <Polish>Sprzedałeś %1 %2 za $%3</Polish>
+      <Original>Vous avez vendu %1 %2 pour %3€</Original>
     </Key>
     <Key ID="STR_Shop_Weapon_NoSelect">
-      <Original>You need to select an item to buy/sell.</Original>
-      <German>Du musst einen Gegenstand auswählen, um ihn zu kaufen / zu verkaufen.</German>
-      <French>Vous devez sélectionner un élément pour acheter/vendre</French>
-      <Italian>Devi selezionare un oggetto per comprare/vendere.</Italian>
-      <Portuguese>Selecione um item para comprar ou vender.</Portuguese>
-      <Polish>Musisz wybrać rzecz którą chcesz kupić/sprzedać</Polish>
+      <Original>Vous devez sélectionner un élément pour acheter/vendre</Original>
     </Key>
     <Key ID="STR_Shop_Weapon_Sold">
-      <Original>You sold a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Original>
-      <German>Du hast eine %1 für &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; verkauft</German>
-      <French>Vous avez vendu un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</French>
-      <Italian>Hai venduto un %1 al prezzo di &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Italian>
-      <Portuguese>Você vendeu %1 por &lt;t color='#8cff9b'&gt;R$%2&lt;/t&gt;</Portuguese>
-      <Polish>Sprzedałeś %1 za &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Polish>
+      <Original>Vous avez vendu un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Original>
     </Key>
     <Key ID="STR_Shop_Weapon_BoughtGang">
-      <Original>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; with the gangs funds.</Original>
-      <German>Du hast eine %1 für &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; mit dem Geld der Gang gekauft.</German>
-      <French>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; avec les fonds du gang.</French>
-      <Italian>Hai comprato un %1 al costo di &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; con i fondi della Gang.</Italian>
-      <Portuguese>Você comprou %1 por &lt;t color='#8cff9b'&gt;R$%2&lt;/t&gt; com o dinheiro da gangue.</Portuguese>
-      <Polish>Kupiłeś %1 za &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; ze środków gangu.</Polish>
+      <Original>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; avec les fonds du gang.</Original>
     </Key>
     <Key ID="STR_Shop_Weapon_BoughtItem">
-      <Original>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Original>
-      <German>Du hast eine %1 für &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; gekauft</German>
-      <French>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</French>
-      <Italian>Hai comprato un %1 al costo di &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Italian>
-      <Portuguese>Você comprou %1 por &lt;t color='#8cff9b'&gt;R$%2&lt;/t&gt;</Portuguese>
-      <Polish>Kupiłeś %1 za &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Polish>
+      <Original>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Original>
     </Key>
     <Key ID="STR_Shop_Weapon_ShopInv">
-      <Original>Shop Inventory</Original>
-      <German>Ladeninventar</German>
-      <French>Inventaire de la boutique</French>
-      <Italian>Inventario Negozio</Italian>
-      <Portuguese>Loja de Inventário</Portuguese>
-      <Polish>Wyposażenie sklepu</Polish>
+      <Original>Inventaire de la boutique</Original>
     </Key>
     <Key ID="STR_Shop_Weapon_YourInv">
-      <Original>Your Inventory</Original>
-      <German>Dein Inventar</German>
-      <French>Votre inventaire</French>
-      <Italian>Inventario Personale</Italian>
-      <Portuguese>Seu Inventário</Portuguese>
-      <Polish>Twoje wyposażenie</Polish>
+      <Original>Votre inventaire</Original>
     </Key>
   </Package>
   <Package name="FSM_Strings">
     <Key ID="STR_FSM_Paycheck">
-      <Original>You will receive your next paycheck in %1 minutes</Original>
-      <German>Du erhältst deinen nächsten Gehaltsscheck in %1 Minuten</German>
-      <French>Vous recevrez votre prochain chèque de paie dans %1 minutes</French>
-      <Italian>Riceverai il tuo prossimo stipendio in %1 minuti</Italian>
-      <Portuguese>Você irá receber seu próximo pagamento em %1 minuto(s)</Portuguese>
-      <Polish>Otrzymasz kolejną wypłatę w ciągu %1 minut.</Polish>
+      <Original>Vous recevrez votre prochain chèque de paie dans %1 minutes</Original>
     </Key>
     <Key ID="STR_FSM_MissedPay">
-      <Original>You have missed a paycheck because you were dead.</Original>
-      <German>Du erhältst kein Gehaltsscheck, da du gestorben bist.</German>
-      <French>Vous avez manqué un chèque de paie parce que vous étiez mort.</French>
-      <Italian>Hai perso uno stipendio perche eri morto.</Italian>
-      <Portuguese>Você não recebeu seu pagamento pois estava morto.</Portuguese>
-      <Polish>Ominęła cię wypłata ponieważ byłeś martwy.</Polish>
+      <Original>Vous avez manqué un chèque de paie parce que vous étiez mort.</Original>
     </Key>
     <Key ID="STR_FSM_ReceivedPay">
-      <Original>You have received a paycheck of $%1</Original>
-      <German>Du hast deinen Gehaltscheck in Höhe von $%1 erhalten</German>
-      <French>Vous avez reçu un salaire de $%1</French>
-      <Italian>Hai ricevuto uno stipendio di €%1</Italian>
-      <Portuguese>Você recebeu seu pagamento de R$%1</Portuguese>
-      <Polish>Otrzymałeś wypłatę w kwocie $%1</Polish>
+      <Original>Vous avez reçu un salaire de %1€</Original>
     </Key>
   </Package>
   <Package name="Fuel_Pump">
     <Key ID="STR_Action_Pump">
-      <Original>Refuel Vehicle</Original>
-      <Portuguese>Reabastecer Veículo</Portuguese>
-      <French>Ravitaillez en essence le Véhicule</French>
+      <Original>Mettre de l'essence</Original>
     </Key>
     <Key ID="STR_Price_Fuel_Pump">
-      <Original>Price per Liter : $%1</Original>
-      <Portuguese>Preço por Litro : R$%1</Portuguese>
-      <French>Prix au Litre : $%1</French>
+      <Original>Prix au Litre : %1€</Original>
     </Key>
     <Key ID="STR_Fuel_Tank_Vehicle">
-      <Original>Current Fuel Amount:</Original>
-      <Portuguese>Quantidade Atual de Combustível:</Portuguese>
+      <Original>Quantité actuelle de carburant:</Original>
     </Key>
     <Key ID="STR_Select_Vehicle_Pump">
-      <Original>Select a vehicle</Original>
-      <Portuguese>Selecione um veículo</Portuguese>
-      <French>Selectionne un vehicule!</French>
+      <Original>Sélectionne un vehicule!</Original>
     </Key>
     <Key ID="STR_Distance_Vehicle_Pump">
-      <Original>The vehicle is too far or you are in!</Original>
-      <Portuguese>O veículo está muito longe ou você está nele!</Portuguese>
-      <French>Le vehicule est trop loin ou tu es dedans!</French>
+      <Original>Le vehicule est trop loin ou tu es dedans!</Original>
     </Key>
     <Key ID="STR_Vehicle_Ready_Pump">
-      <Original>The vehicle is full!</Original>
-      <Portuguese>O veículo está cheio!</Portuguese>
-      <French>Le véhicule est plein!</French>
+      <Original>Le véhicule est plein!</Original>
     </Key>
   </Package>
   <Package name="Player_Actions">
     <Key ID="STR_pAct_DropFishingNet">
       <Original>Drop Fishing Net</Original>
-      <German>Fischernetz auswerfen</German>
-      <French>Drop Fishing Net</French>
-      <Italian>Drop Fishing Net</Italian>
-      <Portuguese>Jogar Rede de Pesca</Portuguese>
-      <Polish>Zarzuć sieć</Polish>
     </Key>
     <Key ID="STR_pAct_RobPerson">
-      <Original>Rob Person</Original>
-      <German>Person ausrauben</German>
-      <French>Rob Person</French>
-      <Italian>Rob Person</Italian>
-      <Portuguese>Roubar Jogador</Portuguese>
-      <Polish>Obrabuj osobę</Polish>
+      <Original>Voler quelqu'un</Original>
     </Key>
   </Package>
   <Package name="Markers_names">
     <Key ID="STR_MAR_Fish_Market">
-      <Original>Fish Market</Original>
-      <German>Fischmarkt</German>
-      <Portuguese>Peixaria</Portuguese>
-      <Polish>Sklep rybny</Polish>
+      <Original>Poissonnerie</Original>
     </Key>
     <Key ID="STR_MAR_Hospital">
       <Original>Hospital</Original>
-      <German>Krankenhaus</German>
-      <Portuguese>Hospital</Portuguese>
-      <Polish>Szpital</Polish>
     </Key>
     <Key ID="STR_MAR_Police_Station">
-      <Original>Police Station</Original>
-      <German>Polizei Revier</German>
-      <Portuguese>Estação Policial</Portuguese>
-      <Polish>Posterunek policji</Polish>
+      <Original>Gendarmerie</Original>
     </Key>
     <Key ID="STR_MAR_Police_Air_HQ">
-      <Original>Police Air HQ</Original>
-      <German>Polizei HQ Flughafen</German>
-      <Portuguese>QG Aéreo Policial</Portuguese>
-      <Polish>Baza lotnicza policji</Polish>
+      <Original>Aéroport de Gendarmerie</Original>
     </Key>
     <Key ID="STR_MAR_Iron_Mine">
-      <Original>Iron Mine</Original>
-      <German>Eisenmine</German>
-      <Portuguese>Mina de Ferro</Portuguese>
-      <Polish>Kopalnia miedzi</Polish>
+      <Original>Mine de Fer</Original>
     </Key>
     <Key ID="STR_MAR_Salt_Mine">
-      <Original>Salt Mine</Original>
-      <German>Salzmine</German>
-      <Portuguese>Mina de Sal</Portuguese>
-      <Polish>Kopalnia soli</Polish>
+      <Original>Mine de Sel</Original>
     </Key>
     <Key ID="STR_MAR_Salt_Processing">
-      <Original>Salt Processing</Original>
-      <German>Salzverarbeitung</German>
-      <Portuguese>Processador de Sal</Portuguese>
-      <Polish>Warzelnia soli</Polish>
+      <Original>Traitement de votre Sel</Original>
     </Key>
     <Key ID="STR_MAR_Altis_Corrections">
-      <Original>Altis Corrections</Original>
-      <German>Altis Bundesgefängnis</German>
-      <Portuguese>Prisão de Altis</Portuguese>
-      <Polish>Więzienie Altis</Polish>
+      <Original>Prison d'OBS</Original>
     </Key>
     <Key ID="STR_MAR_Police_HQ">
-      <Original>Police HQ</Original>
-      <German>Polizei HauptQuartier</German>
-      <Portuguese>QG Policial</Portuguese>
-      <Polish>KG Policji Altis</Polish>
+      <Original>Quartier Général de la Gendarmerie</Original>
     </Key>
     <Key ID="STR_MAR_Coast_Guard">
-      <Original>Coast Guard</Original>
-      <German>Küstenwache</German>
-      <Portuguese>Guarda Costeira</Portuguese>
-      <Polish>Straż przybrzeżna</Polish>
+      <Original>Guardes Côtes</Original>
     </Key>
     <Key ID="STR_MAR_Rebel_Outpost">
-      <Original>Rebel Outpost</Original>
-      <German>Rebellen Außenposten</German>
-      <Portuguese>Base Rebelde</Portuguese>
-      <Polish>Baza rebeliantów</Polish>
+      <Original>Base des Contrebandiers</Original>
     </Key>
     <Key ID="STR_MAR_Air_Shop">
-      <Original>Air Shop</Original>
-      <German>Luftfahrzeug Händler</German>
-      <Portuguese>Loja Aérea</Portuguese>
-      <Polish>Sklep lotniczy</Polish>
+      <Original>Magasin Aérien</Original>
     </Key>
     <Key ID="STR_MAR_Truck_Shop">
-      <Original>Truck Shop</Original>
-      <German>LKW Händler</German>
-      <Portuguese>Loja de Caminhões</Portuguese>
-      <Polish>Salon ciężarówek</Polish>
+      <Original>Concessionnaire Poids Lourds</Original>
     </Key>
     <Key ID="STR_MAR_Oil_Processing">
-      <Original>Oil Processing</Original>
-      <German>Öl Verarbeiter</German>
-      <Portuguese>Processador de Petróleo</Portuguese>
-      <Polish>Rafineria ropy naftowej</Polish>
+      <Original>Traitement de l'Huile</Original>
     </Key>
     <Key ID="STR_MAR_Iron_processing">
-      <Original>Iron Processing</Original>
-      <German>Eisenschmelze</German>
-      <Portuguese>Processador de Ferro</Portuguese>
-      <Polish>Huta żelaza</Polish>
+      <Original>Traitement du Fer</Original>
     </Key>
     <Key ID="STR_MAR_Sand_Mine">
-      <Original>Sand Mine</Original>
-      <German>Sand Mine</German>
-      <Portuguese>Mina de Areia</Portuguese>
-      <Polish>Kopalnia piasku</Polish>
+      <Original>Mine de Sable</Original>
     </Key>
     <Key ID="STR_MAR_Chop_Shop">
       <Original>Chop Shop</Original>
-      <German>Schrotthändler</German>
-      <Portuguese>Desmanche</Portuguese>
-      <Polish>Dziupla</Polish>
     </Key>
     <Key ID="STR_MAR_Cocaine_Processing">
-      <Original>Cocaine Processing</Original>
-      <German>Kokain Verarbeiter</German>
-      <Portuguese>Processador de Cocaína</Portuguese>
-      <Polish>Oczyszczanie kokainy</Polish>
+      <Original>Traitement de Cocaine</Original>
     </Key>
     <Key ID="STR_MAR_Copper_Mine">
-      <Original>Copper Mine</Original>
-      <German>Kupfermine</German>
-      <Portuguese>Mina de Cobre</Portuguese>
-      <Polish>Kopalnia miedzi</Polish>
+      <Original>Mine de Cuivre</Original>
     </Key>
     <Key ID="STR_MAR_ATM">
-      <Original>ATM</Original>
-      <German>Geldautomat</German>
-      <Portuguese>Caixa Eletrônico</Portuguese>
-      <Polish>Bankomat</Polish>
+      <Original>Insérez votre Carte</Original>
     </Key>
     <Key ID="STR_MAR_Local_Bank">
-      <Original>Local Bank</Original>
-      <German>Zentralbank</German>
-      <Portuguese>Banco Local</Portuguese>
-      <Polish>Bank Altis</Polish>
+      <Original>Banque d'OBS</Original>
     </Key>
     <Key ID="STR_MAR_Car_Shop">
-      <Original>Car Shop</Original>
-      <German>Autohändler</German>
-      <Portuguese>Loja de Carros</Portuguese>
-      <Polish>Salon samochodowy</Polish>
+      <Original>Concessionnaire Automobile</Original>
     </Key>
     <Key ID="STR_MAR_Hospital_Clinic">
-      <Original>Hospital/Clinic</Original>
-      <German>Krankenhaus</German>
-      <Portuguese>Hospital/Clínica</Portuguese>
-      <Polish>Klinika Altis</Polish>
+      <Original>Clinique d'OBS</Original>
     </Key>
     <Key ID="STR_MAR_Diamond_Mine">
-      <Original>Diamond Mine</Original>
-      <German>Diamanten Mine</German>
-      <Portuguese>Mina de Diamante</Portuguese>
-      <Polish>Kopalnia diamentów</Polish>
+      <Original>Mine de Diamant</Original>
     </Key>
     <Key ID="STR_MAR_General_Store">
-      <Original>General Store</Original>
-      <German>Supermarkt</German>
-      <Portuguese>Loja de Equipamentos</Portuguese>
-      <Polish>Sklep techniczny</Polish>
+      <Original>Supermarché OBS</Original>
     </Key>
     <Key ID="STR_MAR_Civilian_Shops">
-      <Original>Civilian Shops</Original>
-      <German>Laden für Zivilisten</German>
-      <Portuguese>Lojas Civis</Portuguese>
-      <Polish>Sklepy dla cywilów</Polish>
+      <Original>Magasin du Citoyen</Original>
     </Key>
     <Key ID="STR_MAR_Boat_Shop">
-      <Original>Boat Shop</Original>
-      <German>Boot Händler</German>
-      <Portuguese>Loja de Barcos</Portuguese>
-      <Polish>Sklep z łodziami</Polish>
+      <Original>Magasin de Bâteau</Original>
     </Key>
     <Key ID="STR_MAR_Bruce_Outfits">
-      <Original>Bruce's Outback Outfits</Original>
-      <Portuguese>Loja de Roupas</Portuguese>
-      <Polish>Sklep odzieżowy</Polish>
+      <Original>Quincaillerie</Original>
     </Key>
     <Key ID="STR_MAR_Apple_Field">
-      <Original>Apple Field</Original>
-      <German>Apfel Plantage</German>
-      <Portuguese>Campo de Maçãs</Portuguese>
-      <Polish>Sad jabłkowy</Polish>
+      <Original>Champ de Pommes</Original>
     </Key>
     <Key ID="STR_MAR_Peaches_Field">
-      <Original>Peaches Field</Original>
-      <German>Pfirsich Plantage</German>
-      <Portuguese>Campo de Pêras</Portuguese>
-      <Polish>Sad brzoskwiniowy</Polish>
+      <Original>Champ de Pêches</Original>
     </Key>
     <Key ID="STR_MAR_Market">
-      <Original>Market</Original>
-      <German>Markt</German>
-      <Portuguese>Mercado</Portuguese>
-      <Polish>Market spożywczy</Polish>
+      <Original>Marché</Original>
     </Key>
     <Key ID="STR_MAR_Air_Service">
-      <Original>Air Service Station</Original>
-      <German>Werkstatt für Luftfahrzeuge</German>
-      <Portuguese>Estação de Serviços Aéreos</Portuguese>
-      <Polish>Serwis lotniczy</Polish>
+      <Original>Boutique Aérienne</Original>
     </Key>
     <Key ID="STR_MAR_Channel_News">
-      <Original>Channel 7 News</Original>
-      <German>Kanal 7 Nachrichtensender</German>
-      <Portuguese>Canal de Notícias 7</Portuguese>
-      <Polish>Maszt nadawczy</Polish>
+      <Original>Le Journal d'OBS</Original>
     </Key>
     <Key ID="STR_MAR_DMV">
       <Original>DMV</Original>
-      <German>Zulassungstelle für Lizenzen</German>
-      <Portuguese>Loja de Licenças</Portuguese>
-      <Polish>Urząd licencyjny</Polish>
     </Key>
     <Key ID="STR_MAR_Delivery_Missions">
-      <Original>Delivery Missions</Original>
-      <German>Kurier Mission</German>
-      <Portuguese>Missões de Entrega</Portuguese>
-      <Polish>Misje kurierskie</Polish>
+      <Original>Missions de Livraison</Original>
     </Key>
     <Key ID="STR_MAR_Deliver_Package">
-      <Original>Deliver Package</Original>
-      <German>Paket ausliefern</German>
-      <Portuguese>Entregar Pacote</Portuguese>
-      <Polish>Dostarcz przesyłkę</Polish>
+      <Original>Paquet de Livraison</Original>
     </Key>
     <Key ID="STR_MAR_Get_Delivery_Mission">
-      <Original>Get Delivery Mission</Original>
-      <German>Starte Kurier Mission</German>
-      <Portuguese>Pegar Missão de Entrega</Portuguese>
-      <Polish>Pobierz przesyłkę do dostarczenia</Polish>
+      <Original>Prendre la Mission</Original>
     </Key>
     <Key ID="STR_MAR_Diving_Shop">
-      <Original>Diving Shop</Original>
-      <German>Taucherladen</German>
-      <Portuguese>Loja de Mergulho</Portuguese>
-      <Polish>Akcesoria do nurkowania</Polish>
+      <Original>Magasin de Plongée</Original>
     </Key>
     <Key ID="STR_MAR_Drug_Dealer">
-      <Original>Drug Dealer</Original>
-      <German>Drogendealer</German>
-      <Portuguese>Traficante</Portuguese>
-      <Polish>Diler narkotyków</Polish>
+      <Original>Dealer</Original>
     </Key>
     <Key ID="STR_MAR_Sofia_Freight_Yard">
       <Original>Sofia Freight Yard</Original>
-      <German>Sofia Transportzentrum</German>
-      <Portuguese>Área de Carga e Descarga</Portuguese>
-      <Polish>Terminal transportowy</Polish>
     </Key>
     <Key ID="STR_MAR_Diamond_Processing">
-      <Original>Diamond Processing</Original>
-      <German>Diamantenschleifer</German>
-      <Portuguese>Processador de Diamante</Portuguese>
-      <Polish>Szlifierz diamentów</Polish>
+      <Original>Traitement de Diamant</Original>
     </Key>
     <Key ID="STR_MAR_Oil_Field">
-      <Original>Oil Field</Original>
-      <German>Öl Felder</German>
-      <Portuguese>Campo de Petróleo</Portuguese>
-      <Polish>Szyb naftowy</Polish>
+      <Original>Traitement de l'Huile</Original>
     </Key>
     <Key ID="STR_MAR_Weed_Field">
-      <Original>Weed Field</Original>
-      <German>Gras Plantage</German>
-      <Portuguese>Campo de Maconha</Portuguese>
-      <Polish>Pole marihuany</Polish>
+      <Original>Champs de Cannabis</Original>
     </Key>
     <Key ID="STR_MAR_Weed_Processing">
-      <Original>Weed Processing</Original>
-      <German>Gras Verarbeitung</German>
-      <Portuguese>Processador de Maconha</Portuguese>
-      <Polish>Suszarnia marihuany</Polish>
+      <Original>Traitement de Cannabis</Original>
     </Key>
     <Key ID="STR_MAR_Boat_Spawn">
-      <Original>Boat Spawn</Original>
-      <German>Boot Spawn</German>
-      <Portuguese>Spawn de Barcos</Portuguese>
-      <Polish>Przystań</Polish>
+      <Original>Apparition du Bâteau</Original>
     </Key>
     <Key ID="STR_MAR_Copper_Processing">
-      <Original>Copper Processing</Original>
-      <German>Kupferschmelze</German>
-      <Portuguese>Processador de Cobre</Portuguese>
-      <Polish>Huta miedzi</Polish>
+      <Original>Traitement de Cuivre</Original>
     </Key>
     <Key ID="STR_MAR_Cocaine_Field">
-      <Original>Cocaine Field</Original>
-      <German>Koks Plantage</German>
-      <Portuguese>Campo de Cocaína</Portuguese>
-      <Polish>Pole kokainy</Polish>
+      <Original>Champs de Cocaine</Original>
     </Key>
     <Key ID="STR_MAR_Oil_Trader">
-      <Original>Oil Trader</Original>
-      <German>Öl Händler</German>
-      <Portuguese>Comprador de Petróleo</Portuguese>
-      <Polish>Skup benzyny</Polish>
+      <Original>Vendeur d'Huile</Original>
     </Key>
     <Key ID="STR_MAR_Salt_Trader">
-      <Original>Salt Trader</Original>
-      <German>Salz Händler</German>
-      <Portuguese>Comprador de Sal</Portuguese>
-      <Polish>Skup soli</Polish>
+      <Original>Vendeur de Sel</Original>
     </Key>
     <Key ID="STR_MAR_Diamond_Trader">
-      <Original>Diamond Trader</Original>
-      <German>Juwelier</German>
-      <Portuguese>Comprador de Diamante</Portuguese>
-      <Polish>Skup diamentów</Polish>
+      <Original>Vendeur de Diamant</Original>
     </Key>
     <Key ID="STR_MAR_Glass_Trader">
-      <Original>Glass Trader</Original>
-      <German>Glasbläserei</German>
-      <Portuguese>Comprador de Vidro</Portuguese>
-      <Polish>Skup szkła</Polish>
+      <Original>Vendeur de Verres</Original>
     </Key>
     <Key ID="STR_MAR_Iron_Copper_Trader">
-      <Original>Iron / Copper Trader</Original>
-      <German>Händler für Eisen / Kupfer</German>
-      <Portuguese>Comprador de Ferro e Cobre</Portuguese>
-      <Polish>Skup metali</Polish>
+      <Original>Vendeur de Fer et Cuivre</Original>
     </Key>
     <Key ID="STR_MAR_Sand_Processing">
-      <Original>Sand Processing</Original>
-      <German>Sand Verarbeiter</German>
-      <Portuguese>Processador de Areia</Portuguese>
-      <Polish>Huta szkła</Polish>
+      <Original>Traitement de Sable</Original>
     </Key>
     <Key ID="STR_MAR_Gun_Store">
-      <Original>Gun Store</Original>
-      <German>Waffenladen</German>
-      <Portuguese>Loja de Armas</Portuguese>
-      <Polish>Sklep z bronią</Polish>
+      <Original>Armurier</Original>
     </Key>
     <Key ID="STR_MAR_Heroin_Field">
-      <Original>Heroin Field</Original>
-      <German>Heroin Plantage</German>
-      <Portuguese>Campo de Heroína</Portuguese>
-      <Polish>Pole heroiny</Polish>
+      <Original>Champs d'Héroine</Original>
     </Key>
     <Key ID="STR_MAR_Heroin_Processing">
-      <Original>Heroin Processing</Original>
-      <German>Heroin Verarbeitung</German>
-      <Portuguese>Processador de Heroína</Portuguese>
-      <Polish>Oczyszczanie heroiny</Polish>
+      <Original>Traitement d'Héroine</Original>
     </Key>
     <Key ID="STR_MAR_Garage">
       <Original>Garage</Original>
-      <German>Garage</German>
-      <Portuguese>Garagem</Portuguese>
-      <Polish>Garaż</Polish>
     </Key>
     <Key ID="STR_MAR_Federal_Reserve">
-      <Original>Federal Reserve</Original>
-      <German>Federal Reserve Bank</German>
-      <Portuguese>Reserva Federal</Portuguese>
-      <Polish>Bank Rezerw Federalnych</Polish>
+      <Original>Réserve Federal </Original>
     </Key>
     <Key ID="STR_MAR_Highway_Patrol">
-      <Original>Highway Patrol Outpost</Original>
-      <German>Mautstation</German>
-      <Portuguese>Base da Polícia Rodoviária</Portuguese>
-      <Polish>Posterunek policji drogowej</Polish>
+      <Original>Quartier Général de la Gendarmerie</Original>
     </Key>
     <Key ID="STR_MAR_Rock_Quarry">
-      <Original>Rock Quarry</Original>
-      <German>Steinbruch</German>
-      <Portuguese>Pedreira</Portuguese>
-      <Polish>Kamieniołom</Polish>
+      <Original>Carrière de Pierre</Original>
     </Key>
     <Key ID="STR_MAR_Rock_Processing">
-      <Original>Rock Processing</Original>
-      <German>Stein Verarbeitung</German>
-      <Portuguese>Processador de Pedra</Portuguese>
-      <Polish>Wytwórnia cementu z kamienia</Polish>
+      <Original>Traitement de Pierre</Original>
     </Key>
     <Key ID="STR_MAR_Cement_Trader">
-      <Original>Cement Trader</Original>
-      <German>Zement Händler</German>
-      <Portuguese>Comprador de Cimento</Portuguese>
-      <Polish>Skup cementu</Polish>
+      <Original>Marchand de Ciment</Original>
     </Key>
     <Key ID="STR_MAR_Turtle_Poaching">
       <Original>Turtle Poaching</Original>
-      <German>Wilderei für Schildkröten</German>
-      <Portuguese>Área de Tartarugas</Portuguese>
-      <Polish>Strefa występowania żółwi morskich</Polish>
     </Key>
     <Key ID="STR_MAR_Turtle_Dealer">
       <Original>Turtle Dealer</Original>
-      <German>Schildkröten Händler</German>
-      <Portuguese>Comprador de Tartarugas</Portuguese>
-      <Polish>Skup żółwi</Polish>
     </Key>
     <Key ID="STR_MAR_GoKart_Shop">
-      <Original>Go-Kart Shop</Original>
-      <German>Go-Kart Händler</German>
-      <Portuguese>Loja de Karts</Portuguese>
-      <Polish>Sklep z GoKartami</Polish>
+      <Original>Magasin de Karting</Original>
     </Key>
     <Key ID="STR_MAR_Gold_Bars_Buyer">
-      <Original>Gold Bars Buyer</Original>
-      <German>Händler für Goldbarren</German>
-      <Portuguese>Comprador de Barras de Ouro</Portuguese>
-      <Polish>Skup złota</Polish>
+      <Original>Marchand d'Or</Original>
     </Key>
     <Key ID="STR_MAR_Gang_Hideout1">
-      <Original>Gang Hideout 1</Original>
-      <German>Gang Versteck 1</German>
-      <Portuguese>Esconderijo de Gangs 1</Portuguese>
-      <Polish>Kryjówka gangu 1</Polish>
+      <Original>Repaire de Gang 1</Original>
     </Key>
     <Key ID="STR_MAR_Gang_Hideout2">
-      <Original>Gang Hideout 2</Original>
-      <German>Gang Versteck 2</German>
-      <Portuguese>Esconderijo de Gangs 2</Portuguese>
-      <Polish>Kryjówka gangu 2</Polish>
+      <Original>Repaire de Gang 2</Original>
     </Key>
     <Key ID="STR_MAR_Gang_Hideout3">
-      <Original>Gang Hideout 3</Original>
-      <German>Gang Versteck 3</German>
-      <Portuguese>Esconderijo de Gangs 3</Portuguese>
-      <Polish>Kryjówka gangu 3</Polish>
+      <Original>Repaire de Gang 3</Original>
     </Key>
     <Key ID="STR_MAR_Hunting_Grounds">
-      <Original>Hunting Grounds</Original>
-      <German>Jagtgründe</German>
-      <Portuguese>Área de Caça</Portuguese>
-      <Polish>Strefa polowań</Polish>
+      <Original>Zone de Chasse</Original>
     </Key>
     <Key ID="STR_MAR_Bruce_New_Used_Auto">
-      <Original>Bruce's New and Used Auto's</Original>
-      <German>Bruce's Gebrauchtwagen</German>
-      <Portuguese>Loja de Carros Novos e Usados</Portuguese>
-      <Polish>Salon samochodowy</Polish>
+      <Original>Royaume de l'Occasion</Original>
     </Key>
     <Key ID="STR_MAR_Rebel_Clothing_Shop">
-      <Original>Rebel Clothing Shop</Original>
-      <German>Rebellen Klamottenladen</German>
-      <Portuguese>Loja de Roupas Rebeldes</Portuguese>
-      <Polish>Magazyn rebelianta</Polish>
+      <Original>La Mode du Contrebandier</Original>
     </Key>
     <Key ID="STR_MAR_Rebel_Weapon_Shop">
-      <Original>Rebel Weapon Shop</Original>
-      <German>Rebellen Waffenladen</German>
-      <Portuguese>Loja de Armas Rebeldes</Portuguese>
-      <Polish>Zbrojownia rebelianta</Polish>
+      <Original>Armement de Contrebandier</Original>
     </Key>
     <Key ID="STR_MAR_Helicopter_Shop">
-      <Original>Helicopter Shop</Original>
-      <German>Verkäufer für Heli's</German>
-      <Portuguese>Loja de Helicópteros</Portuguese>
-      <Polish>Sklep lotniczy</Polish>
+      <Original>Magasin d'Hélicoptères</Original>
     </Key>
     <Key ID="STR_MAR_Station_Shop">
-      <Original>Fuel Station Store</Original>
-      <German>Tankstelle</German>
-      <Portuguese>Loja de Conveniência</Portuguese>
-      <Polish>Sklep OLLEN</Polish>
+      <Original>Magasin de la Station Essence</Original>
     </Key>
     <Key ID="STR_MAR_Rebel_Market">
-      <Original>Rebel Market</Original>
-      <German>Rebellen Markt</German>
-      <Portuguese>Mercado Rebelde</Portuguese>
-      <Polish>Market rebelianta</Polish>
+      <Original>Marché du Contrebandier</Original>
     </Key>
     <Key ID="STR_MAR_Question_Dealer">
-      <Original>Question Dealer</Original>
-      <German>Informant</German>
-      <Portuguese>Perguntar ao Traficante</Portuguese>
-      <Polish>Przesłuchaj dilera</Polish>
+      <Original>Interrogatoire</Original>
     </Key>
     <Key ID="STR_MAR_Service_helicopter">
-      <Original>Service Helicopter</Original>
-      <German>Heli Werkstatt</German>
-      <Portuguese>Serviço Aéreo</Portuguese>
-      <Polish>Serwisuj pojazd lotniczy</Polish>
+      <Original>Service Hélicoptères</Original>
     </Key>
     <Key ID="STR_MAR_Clothing_Store">
-      <Original>Clothing Store</Original>
-      <German>Klamottenladen</German>
-      <Portuguese>Loja de Roupas</Portuguese>
-      <Polish>Sklep odzieżowy</Polish>
+      <Original>Magasin de Vêtements</Original>
     </Key>
     <Key ID="STR_MAR_Medical_Assistance">
-      <Original>Medical Assistance</Original>
-      <German>Medizinischer Ersthelfer</German>
-      <Portuguese>Assistência Médica</Portuguese>
-      <Polish>Pomoc medyczna</Polish>
+      <Original>Assistance Médicale </Original>
     </Key>
     <Key ID="STR_MAR_Store_vehicle_in_Garage">
       <Original>Ranger le véhicule au garage</Original>
-      <German>Fahrzeug in Garage einparken</German>
-      <Portuguese>Guardar veículo na Garagem</Portuguese>
-      <Polish>Umieść pojazd w garażu</Polish>
     </Key>
     <Key ID="STR_MAR_Cop_Item_Shop">
-      <Original>Magasin gendarmerie</Original>
-      <German>Polizei Ausrüstung</German>
-      <Portuguese>Loja de Items da Polícia</Portuguese>
-      <Polish>Zaopatrzenie</Polish>
+      <Original>Magasin de Gendarmerie</Original>
     </Key>
     <Key ID="STR_MAR_Cop_Clothing_Shop">
-      <Original>Tenues gendarmerie</Original>
-      <German>Polizei Uniformen</German>
-      <Portuguese>Loja de Roupas da Polícia</Portuguese>
-      <Polish>Umundurowanie</Polish>
+      <Original>Tenues de Gendarmerie</Original>
     </Key>
     <Key ID="STR_MAR_Cop_Weapon_Shop">
-      <Original>Cop Weapon Shop</Original>
-      <German>Polizei Waffenhändler</German>
-      <Portuguese>Loja de Armas da Polícia</Portuguese>
-      <Polish>Broń policji</Polish>
+      <Original>Magasin de Gendarmerie</Original>
     </Key>
     <Key ID="STR_MAR_Patrol_Officer_Weapon_Shop">
-      <Original>Patrol Officer Weapon Shop</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
+      <Original>Magasin de Gendarmerie</Original>
     </Key>
 	<Key ID="STR_MAR_Cop_gav">
       <Original>Armurerie GAV</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
     </Key>
 	<Key ID="STR_MAR_Cop_brigadier">
       <Original>Brigadier</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
     </Key>
 	<Key ID="STR_MAR_Cop_brigadierchef">
       <Original>Brigadier Chef</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
     </Key>
 	<Key ID="STR_MAR_Cop_adjudant">
       <Original>Adjudant</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
     </Key>
 	<Key ID="STR_MAR_Cop_major">
       <Original>Major</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
     </Key>
 	<Key ID="STR_MAR_Cop_lieutenant">
       <Original>Lieutenant</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
     </Key>
 	<Key ID="STR_MAR_Cop_capitaine">
       <Original>Capitaine</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
     </Key>
 	<Key ID="STR_MAR_Cop_commandant">
       <Original>Commandant</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
     </Key>
 	<Key ID="STR_MAR_Cop_lieutenantcol">
       <Original>Lieutenant-Colonel</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
     </Key>
 	<Key ID="STR_MAR_Cop_colonel">
       <Original>Colonel</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
     </Key>
     <Key ID="STR_MAR_Sergeant_Weapon_Shop">
-      <Original>Sergeant Weapon Shop</Original>
-      <Portuguese>Lojas de Armas de Sargento</Portuguese>
-      <Polish>Broń sierżanta</Polish>
+      <Original>Magasin de Gendarmerie</Original>
     </Key>
     <Key ID="STR_MAR_W_E_Vehicle Shop">
-      <Original>Véhicules gendarmerie</Original>
+      <Original>Véhicules de Gendarmerie</Original>
       <German>Autohändler</German>
       <Portuguese>Loja de Carros</Portuguese>
       <Polish>Pojazdy - sklep</Polish>
     </Key>
     <Key ID="STR_MAR_Process_Sand">
-      <Original>Process Sand</Original>
-      <German>Verarbeite Sand</German>
-      <Portuguese>Processar Areia</Portuguese>
-      <Polish>Przetop piasek na szkło</Polish>
+      <Original>Traitement du Sable</Original>
     </Key>
     <Key ID="STR_MAR_Process_Rock">
-      <Original>Process Rock</Original>
-      <German>Verarbeite Stein</German>
-      <Portuguese>Processar Pedra</Portuguese>
-      <Polish>Zmiel skały na cement</Polish>
+      <Original>Traitement de la Pierre</Original>
     </Key>
     <Key ID="STR_MAR_Wong_Food_Cart">
-      <Original>Wongs Food Cart</Original>
-      <German>Wongs Spezialitäten</German>
-      <Portuguese>Boteco do Wongs</Portuguese>
-      <Polish>Bar u Wonga</Polish>
+      <Original>La Cuisine de Wong</Original>
     </Key>
     <Key ID="STR_MAR_Open_Vault">
-      <Original>Open Vault</Original>
-      <German>Offener Tresor</German>
-      <Portuguese>Abrir Cofre</Portuguese>
-      <Polish>Otwórz skarbiec</Polish>
+      <Original>Ouvrir le Trésor</Original>
     </Key>
     <Key ID="STR_MAR_Fix_Vault">
-      <Original>Fix Vault</Original>
-      <German>Tresor reparieren</German>
-      <Portuguese>Consertar Cofre</Portuguese>
-      <Polish>Napraw skarbiec</Polish>
+      <Original>Fermer le Coffre</Original>
     </Key>
     <Key ID="STR_MAR_FED_Front">
-      <Original>Federal Reserve - Front Entrance</Original>
-      <German>Federal Reserve Bank - Haupteingang</German>
-      <Portuguese>Reserva Federal - Entrada Frontal</Portuguese>
-      <Polish>Rezerwa federalna - wejście główne</Polish>
+      <Original>Réserve Federale  - Entrée Principale</Original>
     </Key>
     <Key ID="STR_MAR_FED_Side">
-      <Original>Federal Reserve - Side Entrance</Original>
-      <German>Federal Reserve Bank - Seiteneingang</German>
-      <Portuguese>Reserva Federal - Entrada Lateral</Portuguese>
-      <Polish>Rezerwa federalna - wejście boczne</Polish>
+      <Original>Réserve Federale - Entrée Latérale</Original>
     </Key>
     <Key ID="STR_MAR_FED_Back">
-      <Original>Federal Reserve - Back Entrance</Original>
-      <German>Federal Reserve Bank - Hintereingang</German>
-      <Portuguese>Reserva Federal - Entrada Traseira</Portuguese>
-      <Polish>Rezerwa federalna - wejście tylne</Polish>
+      <Original>Réserve Federale - Sortie de Secours</Original>
     </Key>
     <Key ID="STR_MAR_FED_Vault">
-      <Original>Federal Reserve - Vault View</Original>
-      <German>Federal Reserve Bank - Tresor</German>
-      <Portuguese>Reserva Federal - Visão do Cofre</Portuguese>
-      <Polish>Rezerwa federalna - skarbiec</Polish>
+      <Original>Réserve Federale - Vue sur le Coffre</Original>
     </Key>
     <Key ID="STR_MAR_FED_Off_display">
-      <Original>Turn Off Display</Original>
-      <German>Bildschirm ausschalten</German>
-      <Portuguese>Desligar Monitor</Portuguese>
-      <Polish>Wyłącz wyświetlacz</Polish>
+      <Original>Eteindre</Original>
     </Key>
     <Key ID="STR_MAR_Armament">
-      <Original>Armament</Original>
-      <German>Rüstkammer</German>
-      <Portuguese>Armamento</Portuguese>
-      <Polish>Zbrojownia gangu</Polish>
+      <Original>Activer</Original>
     </Key>
     <Key ID="STR_MAR_EMS_Item_Shop">
-      <Original>Marché secours</Original>
-      <German>EMS Ausrüstung</German>
-      <Portuguese>Loja de Items Médicos</Portuguese>
-      <Polish>Wyposażenie medyczne</Polish>
+      <Original>Marché des Secours</Original>
     </Key>
     <Key ID="STR_MAR_EMS_Clothing_Shop">
-      <Original>Equipement secours</Original>
-      <German>EMS Kleidungs-System</German>
-      <Portuguese>EMS Roupa Loja</Portuguese>
-      <Polish>Sklep odzieżowy EMS</Polish>
+      <Original>Equipement des Secours</Original>
     </Key>
     <Key ID="STR_MAR_Helicopter_Garage">
-      <Original>Helicopter Garage</Original>
-      <German>Helikopter Hangar</German>
-      <Portuguese>Garagem Aérea</Portuguese>
-      <Polish>Hangar lotniczy</Polish>
+      <Original>Garage Hélicoptères </Original>
     </Key>
     <Key ID="STR_MAR_W_Car_Garage">
-      <Original>Car Garage</Original>
-      <German>Fahrzeug Garage</German>
-      <Portuguese>Garagem de Carros</Portuguese>
-      <Polish>Hangar lotniczy</Polish>
+      <Original>Garage des Voitures</Original>
     </Key>
     <Key ID="STR_MAR_Pay_Bail">
-      <Original>Pay Bail</Original>
-      <German>Zahle Kaution</German>
-      <Portuguese>Pagar Fiança</Portuguese>
-      <Polish>Zapłać kaucję</Polish>
+      <Original>Payer la caution</Original>
     </Key>
   </Package>
   <Package name="Crimes">
@@ -3353,211 +2659,126 @@
       <Original>Terrorism</Original>
     </Key>
     <Key ID="STR_Crime_668">
-      <Original>Unlicensed Hunting</Original>
+      <Original>Chasser sans licences</Original>
     </Key>
     <Key ID="STR_Crime_919">
-      <Original>Organ Theft</Original>
+      <Original>Vol d'Organes</Original>
     </Key>
     <Key ID="STR_Crime_919A">
-      <Original>Attempted Organ Theft</Original>
+      <Original>Trafique d'Organes</Original>
     </Key>
     <Key ID="STR_Crime_1">
-      <Original>Driving without license</Original>
-      <French>Absence du permis de conduire</French>
+      <Original>Absence du permis de conduire</Original>
     </Key>
     <Key ID="STR_Crime_2">
-      <Original>Driving in the wrong way of the street</Original>
-      <French>Conduite sur le mauvais côté de la route</French>
+      <Original>Conduite sur le mauvais côté de la route</Original>
     </Key>
     <Key ID="STR_Crime_3">
-      <Original>Not respecting the signalizations</Original>
-      <French>Non respect des signalisations</French>
+      <Original>Non respect des signalisations</Original>
     </Key>
     <Key ID="STR_Crime_4">
-      <Original>Speeding</Original>
-      <French>Excès de vitesse</French>
+      <Original>Excès de vitesse</Original>
     </Key>
     <Key ID="STR_Crime_5">
-      <Original>No headlight in the night</Original>
-      <French>Absence de phare la nuit</French>
+      <Original>Absence de phares la nuit</Original>
     </Key>
     <Key ID="STR_Crime_6">
-      <Original>Driving kart without helmet</Original>
-      <French>Non-port du casque en Kart</French>
+      <Original>Non-port du casque en Kart</Original>
     </Key>
     <Key ID="STR_Crime_7">
-      <Original>Badly parked vehicle</Original>
-      <French>Véhicule mal garé</French>
+      <Original>Véhicule mal garé</Original>
     </Key>
     <Key ID="STR_Crime_8">
-      <Original>Rebel vehicle (Not armed)</Original>
-      <French>Véhicule rebel non armé</French>
+      <Original>Véhicule rebel non armé</Original>
     </Key>
     <Key ID="STR_Crime_9">
-      <Original>Grand Theft (Civilian Vehicle)</Original>
-      <French>Vol de véhicule civil</French>
+      <Original>Vol de véhicule civil</Original>
     </Key>
     <Key ID="STR_Crime_10">
-      <Original>Grand Theft (Military Vehicle)</Original>
-      <French>Vol de véhicule militaire</French>
+      <Original>Vol de véhicule de Gendarme</Original>
     </Key>
     <Key ID="STR_Crime_11">
-      <Original>Armored Vehicle</Original>
-      <French>Véhicules blindés</French>
+      <Original>Véhicules blindés</Original>
     </Key>
     <Key ID="STR_Crime_12">
-      <Original>Flying over the city without authorization</Original>
-      <French>Survol de ville sans autorisation</French>
+      <Original>Survol de ville sans autorisation</Original>
     </Key>
     <Key ID="STR_Crime_13">
-      <Original>Closing the street without authorization</Original>
-      <French>Interdiction de se poser sans autorisation</French>
+      <Original>Interdiction de se poser sans autorisation</Original>
     </Key>
     <Key ID="STR_Crime_14">
-      <Original>Open carry in city (Legal Weapon)</Original>
-      <French>Arme légale visible en ville</French>
+      <Original>Arme légale visible en ville</Original>
     </Key>
     <Key ID="STR_Crime_15">
-      <Original>Rebel weapon</Original>
-      <French>Armes rebelles</French>
+      <Original>Armes rebelles</Original>
     </Key>
     <Key ID="STR_Crime_16">
-      <Original>Ilegal clothing</Original>
-      <French>Vêtements illégaux</French>
+      <Original>Vêtements illégaux</Original>
     </Key>
     <Key ID="STR_Crime_17">
-      <Original>Hiding face (Mask)</Original>
-      <French>Cacher son visage</French>
+      <Original>Cacher son visage</Original>
     </Key>
     <Key ID="STR_Crime_18">
-      <Original>Refuses to cooperate</Original>
-      <French>Refus d'obtempérer</French>
+      <Original>Refus d'obtempérer</Original>
     </Key>
     <Key ID="STR_Crime_19">
-      <Original>Hit and run</Original>
-      <French>Délit de fuite</French>
+      <Original>Délit de fuite</Original>
     </Key>
     <Key ID="STR_Crime_20">
-      <Original>Insulting a civilian</Original>
-      <French>Insulte envers un civil</French>
+      <Original>Insulte envers un civil</Original>
     </Key>
     <Key ID="STR_Crime_21">
-      <Original>Insulting a soldier</Original>
-      <French>Insulte envers un militaire</French>
+      <Original>Insulte envers un Gendarme</Original>
     </Key>
     <Key ID="STR_Crime_22">
-      <Original>Drug dealing</Original>
-      <French>Trafique de drogue</French>
+      <Original>Trafique de drogue</Original>
     </Key>
     <Key ID="STR_Crime_23">
-      <Original>Federal research breaking</Original>
-      <French>Intrusion dans le coffre du gouverneur</French>
+      <Original>Intrusion dans le coffre de la Réserve Fédérale</Original>
     </Key>
     <Key ID="STR_Crime_24">
-      <Original>Killing of a civilian</Original>
-      <French>Meurtre d'un civil</French>
+      <Original>Meurtre d'un civil</Original>
     </Key>
     <Key ID="STR_Crime_25">
-      <Original>Killing of a soldier</Original>
-      <French>Meurtre d'un militaire</French>
+      <Original>Meurtre d'un Gendarme</Original>
     </Key>
 </Package>
 <Package name="Craft">
 	<Key ID="STR_CRAFT_Title">
 	  <Original>Menu de fabrication</Original>
-	  <English>Menu de fabrication</English>
-	  <German>Bau Menü</German>
-	  <French>Menu de Crafting</French>
-	  <Italian>Crafting Menu</Italian>
-	  <Portuguese>Crafting Menu</Portuguese>
 	</Key>
 	<Key ID="STR_PM_CraftStats">
 	  <Original>Objet à fabriquer</Original>
-	  <English>Objet à fabriquer</English>
-	  <German>Sachen zum bauen</German>
-	  <French>Objet à crafter</French>
-	  <Italian>Object to craft</Italian>
-	  <Portuguese>Object to craft</Portuguese>
 	</Key>
 	<Key ID="STR_PM_CraftMaterials">
 	  <Original>Matériaux requis</Original>
-	  <English>Matériaux requis</English>
-	  <German>Benötigte Sachen</German>
-	  <French>Materiaux requis</French>
-	  <Italian>Materials needed</Italian>
-	  <Portuguese>Materials needed</Portuguese>
 	</Key>
 	<Key ID="STR_CRAFT_Button">
 	  <Original>Fabriquer!</Original>
-	  <English>Fabriquer!</English>
-	  <German>Bauen !</German>
-	  <French>Craft !</French>
-	  <Italian>Craft !</Italian>
-	  <Portuguese>Craft !</Portuguese>
 	</Key>
 	<Key ID="STR_PM_NoMaterial">
 	  <Original>Vous n'avez pas les matériaux requis!</Original>
-	  <English>Vous n'avez pas les matériaux requis!</English>
-	  <German>Du hast nicht genug davon...!</German>
-	  <French>Vous n'avez pas tous les matériaux requis !</French>
-	  <Italian>You do not have all the required materials !</Italian>
-	  <Portuguese>You do not have all the required materials !</Portuguese>
 	</Key>
 	<Key ID="STR_CRAFT_Process">
 	  <Original>Vous avez fabriqué: %1</Original>
-	  <English>Vous avez fabriqué: %1</English>
-	  <German>Du hast folgendes hergestellt : %1</German>
-	  <French>Vous avez crafté : %1</French>
-	  <Italian>You have crafted : %1</Italian>
-	  <Portuguese>You have crafted : %1</Portuguese>
 	</Key>
 	<Key ID="STR_CRAFT_FILTER_Weapon">
 	  <Original>Armes</Original>
-	  <English>Armes</English>
-	  <German>Waffen</German>
-	  <French>Armes</French>
-	  <Italian>Weapons</Italian>
-	  <Portuguese>Weapons</Portuguese>
 	</Key>
  <Key ID="STR_CRAFT_FILTER_Uniform">
 	  <Original>Textiles</Original>
-	  <English>Textiles</English> 
-	  <German>Kleidung</German>	
-	  <French>Uniformes</French>
-	  <Italian>Uniforms</Italian>
-	  <Portuguese>Uniforms</Portuguese>
 	</Key>
 	<Key ID="STR_CRAFT_FILTER_Backpack">
 	  <Original>Sacs</Original> 
-	  <English>Sacs</English> 
-	  <German>Rucksäcke</German>
-	  <French>Sacs à dos</French>
-	  <Italian>Backpacks</Italian>	
-	  <Portuguese>Backpacks</Portuguese>
 	</Key>	
 	<Key ID="STR_CRAFT_FILTER_Item">
 	  <Original>Objets</Original> 
-	  <English>Objets</English> 	
-	  <German>Items</German>	
-	  <French>Items</French>	
-	  <Italian>Items</Italian>	
-	  <Portuguese>Items</Portuguese>
 	</Key>	
 	<Key ID="STR_CRAFT_AR_Backpack">	
 	  <Original>Vous avez déjà un sac à dos ! Posez le votre avant d'en crafter un nouveau.</Original> 
-	  <English>Vous avez déjà un sac à dos ! Posez le votre avant d'en crafter un nouveau.</English> 
-	  <German>Du hast bereit einen Rucksack ! Pack den alten erstmal weg.</German>	
-	  <French>Vous avez déjà un sac à dos ! Posez le votre avant d'en crafter un nouveau.</French>	
-	  <Italian>You already have a backpack ! Put it on the ground before crafting a new.</Italian>	
-	  <Portuguese>You already have a backpack ! Put it on the ground before crafting a new.</Portuguese>
 	</Key>		
 	<Key ID="STR_CRAFT_AR_Uniform">	
 	  <Original>Vous avez déjà un uniforme ! Posez le votre avant d'en crafter un nouveau.</Original> 	
-	  <English>Vous avez déjà un uniforme ! Posez le votre avant d'en crafter un nouveau.</English> 	
-	  <German>Du hast bereits was an ! Mach dich nackt und versuch es nochmal.</German>		
-	  <French>Vous avez déjà un uniforme ! Posez le votre avant d'en crafter un nouveau.</French>
-	  <Italian>You already have an uniform ! Put it on the ground before crafting a new.</Italian>	
-	  <Portuguese>You already have an uniform ! Put it on the ground before crafting a new.</Portuguese>
 	</Key>
 </Package>
 </Project>
