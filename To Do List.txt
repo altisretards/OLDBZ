@@ -10,21 +10,16 @@ TO DO :
 - Licence d'avocats (500k)
 - Licence Taxi https://altisdev.com/index.php?/topic/19-suv-taxi/ pas de skin en particulier pour leur tenue mais juste un véhicule disponible après l'achat de la licence.
 
-- Ajouter un son ouverture/fermeture du vehicule.
-
-- Modifier le welcome menu/virer le briefing ou placer les règles du serv / prix des matières <->Mettre la bourse dynamique.
-
-- Trouver les Textures GIGN (intervention)
-
-- Modifier le menu "Y".
-
 - Ajouter une barre d'état. (?)
 
 (- ajout nouvelles armes Tanoa -> police)
 
 
 DONE :
-
+- Ajouter un son ouverture/fermeture du vehicule.
+- Modifier le welcome menu/virer le briefing ou placer les règles du serv / prix des matières <->Mettre la bourse dynamique.
+- Trouver les Textures GIGN (intervention)
+- Modifier le menu "Y".
 - Ajout tenue + camion (zamak box) pompier (side medic)
 - Remaniement médic (shops + véhicules + loadout)
 - Tenue unique pour les rebelles -> https://community.bistudio.com/wiki/File:Arma3_CfgWeapons_U_O_CombatUniform_oucamo.jpg
