@@ -31762,7 +31762,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=205;
+		items=201;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -33018,16 +33018,16 @@ class Mission
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorWhite";
-			a=1000;
-			b=1000;
+			a=500;
+			b=500;
 		};
 		class Item160
 		{
-			position[]={7604.667,128.90898,19991.012};
+			position[]={7758.085,109.49237,19974.738};
 			name="hunting_marker";
 			text="Zone de Chasse";
-			type="mil_join";
-			colorName="ColorRed";
+			type="mil_dot";
+			colorName="ColorBrown";
 		};
 		class Item161
 		{
@@ -33328,45 +33328,13 @@ class Mission
 		};
 		class Item197
 		{
-			position[]={9235.2041,55.42374,11773.294};
-			name="Pastis";
-			text="Pastis";
-			type="mil_triangle";
-			colorName="ColorBrown";
-		};
-		class Item198
-		{
-			position[]={23917.297,34.020885,24365.061};
-			name="Meth";
-			text="Meth ";
-			type="mil_dot";
-			colorName="ColorRed";
-		};
-		class Item199
-		{
-			position[]={21150.854,27.144421,12166.357};
-			name="Pillule d’excatzy";
-			text="Pillule d’excatzy";
-			type="mil_dot";
-			colorName="ColorRed";
-		};
-		class Item200
-		{
-			position[]={17023.48,23.171068,17025.377};
-			name="Mescaline";
-			text="Mescaline";
-			type="mil_dot";
-			colorName="ColorRed";
-		};
-		class Item201
-		{
 			position[]={18460.67,50.488655,9330.8262};
 			name="Crack";
 			text="Crack";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
-		class Item202
+		class Item198
 		{
 			position[]={12537.118,11.729816,14316.431};
 			name="Safe kavala";
@@ -33376,7 +33344,7 @@ class Mission
 			a=300;
 			b=300;
 		};
-		class Item203
+		class Item199
 		{
 			position[]={12859.164,0,14173.587};
 			name="Port gendarme";
@@ -33384,7 +33352,7 @@ class Mission
 			type="mil_box";
 			colorName="ColorBlue";
 		};
-		class Item204
+		class Item200
 		{
 			position[]={12685.345,3.5268898,14250.796};
 			name="Parking";
