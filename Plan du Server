@@ -5,7 +5,7 @@ Modification de la map et ajouts des nouveaux points de récoltes [DONE]
 Assignation des objets aux différents shop [EN COURS]
 Création d'un système de craft avec un nouvel équilibre [DONE]
 Tri des Textures [DONE]
-Création et mise en place des Licences relatives au craft [EN COURS]
+Création et mise en place des Licences relatives au craft [DONE]
 Assigner les marqueurs de Zone Safe dans la DB [/]
 Remplir les shops des différentes factions [/]
 Ajouter le Battle Eye [/]
@@ -14,4 +14,3 @@ Ajouter le script http://www.altisliferpg.com/topic/11132-release-copsmedics-bar
 Ajouter le script https://altisdev.com/index.php?/topic/10716-assurance-v%C3%A9hicules-44r3/ [/]
 Ajouter le pnj de la Prison afin de payer la caution [/]
 Ajouter le pnj de la licence Contrebandier [/] + son pote qui vend les véhicules.
-
