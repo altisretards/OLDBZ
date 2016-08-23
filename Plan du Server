@@ -8,6 +8,7 @@ Ajouter le Battle Eye [/]
 Ajouter le script http://www.altisliferpg.com/topic/13621-update-seize-weapons-directly-from-player-for-44/ [/]
 Ajouter le script http://www.altisliferpg.com/topic/11132-release-copsmedics-barrier-placeables-road-conebarrier-placement-dialogs/?page=1 [/]
 Ajouter le script https://altisdev.com/index.php?/topic/10716-assurance-v%C3%A9hicules-44r3/ [/]
+Ajouter le script https://altisdev.com/index.php?/topic/3858-script-porte-vehicule/
 Ajouter le pnj de la Prison afin de payer la caution [SOLVED] Il n'y a pas de pnj pour payer la caution, la prison est l'ultime recours
 et ne peut donc être skip avec la caution.
 Ajouter le pnj de la licence Contrebandier [DONE] + son pote qui vend les véhicules.
@@ -16,3 +17,6 @@ Modification de la map et ajouts des nouveaux points de récoltes [DONE]
 Création d'un système de craft avec un nouvel équilibre [DONE]
 Tri des Textures [DONE]
 Création et mise en place des Licences relatives au craft [DONE]
+Retirer la possibiliter de deposer de l'argent dans le gang (Glitch argent)
+Faire un HUD bouffe faim et vie dans le style http://images.akamai.steamusercontent.com/ugc/267221520614858834/6F046BEAAC26E5B5D8493F2C9F05382DCF4F44F3/
+Pnj à qui tu mes en vente du stuff et un joueur peux venir l'acheter plus tard.
