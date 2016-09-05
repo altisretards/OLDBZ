@@ -1,4 +1,4 @@
-Vendeurs de la zone d'échanges LEGALE !
+Vendeurs de la zone d'Ã©changes LEGALE !
 
 class Item66
 				{
@@ -12,7 +12,7 @@ class Item66
 					skill=0.60000002;
 					init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Iron_Copper_Trader"",life_fnc_virt_menu,""iron""];";
 					
-					[Peut être utilisé pour dispatch une partie des objets de craft]
+					[Peut Ãªtre utilisÃ© pour dispatch une partie des objets de craft]
 class Item69
 				{
 					position[]={14602.985,17.91,16778.553};
@@ -25,7 +25,7 @@ class Item69
 					skill=0.60000002;
 					init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Salt_Trader"",life_fnc_virt_menu,""salt""];";
 					
-					[Peut être utilisé pour dispatch une partie des objets de craft]
+					[Peut Ãªtre utilisÃ© pour dispatch une partie des objets de craft]
 class Item13
 				{
 					position[]={14602.421,17.91,16793.465};
@@ -39,7 +39,7 @@ class Item13
 					text="Dealer_1";
 					init="removeAllWeapons this; this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Drug_Dealer"",life_fnc_virt_menu,""drugdealer"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; this addAction[localize""STR_MAR_Question_Dealer"",life_fnc_questionDealer,"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == west && !life_action_inUse '];";
 					
-					[Peut être utlisé pour faire le marchand général.]
+					[Peut Ãªtre utlisÃ© pour faire le marchand gÃ©nÃ©ral.]
 
 class Item86
 		{
@@ -60,7 +60,7 @@ class Item86
 					text="Station_shop_07";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";					
 
-					[Peut être utilisé pour dispatch une partie des objets de craft]
+					[Peut Ãªtre utilisÃ© pour dispatch une partie des objets de craft]
 class Item94
 		{
 			side="CIV";
@@ -80,7 +80,7 @@ class Item94
 					text="Station_shop_19";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";					
 
-					[Peut être utilisé pour dispatch une partie des objets de craft]
+					[Peut Ãªtre utilisÃ© pour dispatch une partie des objets de craft]
 PNJ UNIVERSITY !!
 
 class Item14
@@ -149,7 +149,7 @@ class Item68
 					skill=0.60000002;
 					init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Diamond_Trader"",life_fnc_virt_menu,""diamond""];";
 
-					[Peut être utilisé pour dispatch une partie des objets de craft]
+					[Peut Ãªtre utilisÃ© pour dispatch une partie des objets de craft]
 class Item65
 				{
 					position[]={8630.8145,190.17886,18062.967};
@@ -161,7 +161,7 @@ class Item65
 					skill=0.60000002;
 					init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Glass_Trader"",life_fnc_virt_menu,""glass""];";
 
-					[Peut être utilisé pour dispatch une partie des objets de craft]
+					[Peut Ãªtre utilisÃ© pour dispatch une partie des objets de craft]
 class Item84
 		{
 			side="CIV";
@@ -180,7 +180,7 @@ class Item84
 					text="Station_shop_3";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";					
 
-					[Peut être utilisé pour dispatch une partie des objets de craft]
+					[Peut Ãªtre utilisÃ© pour dispatch une partie des objets de craft]
 					
 					[COMMENTAIRE : IL Y A 2 PNJ QUE JE NE PEUX LOCALISER NI PAR LA POSITION NI PAR SON ID]					
 
@@ -265,4 +265,77 @@ PYRGOS
 				[VENDEUR DE VOITURES]
 					
 AGGELOCHORI
+
+
+
+
+
+Garage Aerien des joueurs
+Garage 1
+
+				class Item108
+				{
+					position[]={17127.684,14.866824,12592.201};
+					azimut=138.603;
+					special="NONE";
+					id=205;
+					side="CIV";
+					vehicle="C_man_polo_2_F";
+					skill=0.60000002;
+					text="air_1_1";
+					init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Wong_Food_Cart"",life_fnc_virt_menu,""wongs""];";
+					
+Spwan 1
+		class Item194
+		{
+			position[]={17134.363,14.905038,12582.713};
+			name="Air_1";
+			type="Empty";
+			angle=223.97971;
+
+Garage 2
+				class Item107
+				{
+					position[]={4147.353,26.64378,13932.904};
+					azimut=-185.03999;
+					special="NONE";
+					id=204;
+					side="CIV";
+					vehicle="C_man_polo_1_F";
+					skill=0.60000002;
+					text="air_1_2";
+					init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Wong_Food_Cart"",life_fnc_virt_menu,""wongs""];";
+				};
+Spwan 2 
+		class Item196
+		{
+			position[]={4148.1563,26.391705,13928.357};
+			name="Air_2";
+			type="Empty";
+			angle=85.311043;
+		};
+		
+Garage 3
+				class Item62
+				{
+					position[]={12763.068,11.48208,14380.084};
+					azimut=-273.21399;
+					offsetY=1.26305;
+					special="NONE";
+					id=159;
+					side="CIV";
+					vehicle="C_man_p_fugitive_F_asia";
+					skill=0.60000002;
+					text="air_1_3";
+					init="this enableSimulation false; this allowDamage false; this addAction[localize ""STR_MAR_General_Store"",life_fnc_weaponShopMenu,""genstore""];";
+				};
+Spwan 3
+		class Item197
+		{
+			position[]={12775.66,10.375689,14380.053};
+			name="Air_3";
+			type="Empty";
+		};
+
+
 
