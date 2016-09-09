@@ -90,9 +90,9 @@ Pas de Shop Rebel actuellement , donc inutile de les placer.
 			{ "130Rnd_338_Mag", "SPMG (130)", 4500 },
 			{ "10Rnd_93x64_DMR_05_Mag", "Cyrus (10)", 5000 }
         };
-		*/
+
     };
-/*
+
 Même chose que pour les rebelles , les gangs n'ont pas de shop à proprement parlé.
     class gang {
         name = "Hideout Armament";
@@ -112,8 +112,8 @@ Même chose que pour les rebelles , les gangs n'ont pas de shop à proprement pa
             { "9Rnd_45ACP_Mag", "", 45 },
             { "30Rnd_9x21_Mag", "", 75 }
         };
-		*/
-    };
+		
+    };*/
 
     //Basic Shops
     class genstore {
@@ -161,21 +161,21 @@ Même chose que pour les rebelles , les gangs n'ont pas de shop à proprement pa
     };
 
     //Cop Shops
-    class cop_gav {
-        name = "Armurerie GAV";
+    class cop_free {
+        name = "Armurerie Publique";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 1, "Vous n'êtes pas gendarme!" };
+        level[] = { "life_coplevel", "EQUAL", 1, "Vous n'êtes pas volontaire!" };
         items[] = {
             { "arifle_sdar_F", "Taser", 3500, -1 },
             { "hgun_P07_snds_F", "Pistolet étourdissant", 2500, -1 },
             { "SMG_02_F", "Sting 9mm", 5000, -1 },
-            { "Binocular", "Jumelles", 150, -1 },
-            { "ItemGPS", "", 100, -1 },
-            { "ToolKit", "Trousse à outils", 250, -1 },
+            { "Binocular", "Jumelles", 75, -1 },
+            { "ItemGPS", "", 50, -1 },
+            { "ToolKit", "Trousse à outils", 125, -1 },
             { "muzzle_snds_L", "Silencieux pistolet", 650, -1 },
-            { "FirstAidKit", "Kit de soins", 150, -1 },
-            { "Medikit", "Trousse médicale", 500, -1 },
+            { "FirstAidKit", "Kit de soins", 75, -1 },
+            { "Medikit", "Trousse médicale", 125, -1 },
             { "NVGoggles_OPFOR", "Vision nocturne", 1000, -1 }
         };
         mags[] = {
@@ -185,102 +185,126 @@ Même chose que pour les rebelles , les gangs n'ont pas de shop à proprement pa
         };
     };
 
-    class cop_brigadier {
-        name = "Brigadier";
+    class cop_militairedurang {
+        name = "Militaire du Rang";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "Vous n'êtes pas brigadier!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "Vous n'êtes pas habilité!" };
         items[] = {
-            { "arifle_Mk20C_plain_F", "Mk20 Court 5.56", 15000, -1 },
-            { "muzzle_snds_M", "Silencieux 5.56", 500, -1 },
-			{ "optic_Hamr", "", 500, -1},
-			{ "optic_MRCO", "", 500, -1},
-			{ "Binocular", "Jumelles", 150, -1 },
-            { "ItemGPS", "", 100, -1 },
-            { "ToolKit", "Trousse à outils", 250, -1 },
-			{ "FirstAidKit", "Kit de soins", 150, -1 },
-            { "Medikit", "Trousse médicale", 500, -1 },
-            { "NVGoggles_OPFOR", "Vision nocturne", 1000, -1 }
+            { "hgun_P07_snds_F", "Taser", 0, 0 },
+            { "SMG_05_F", "", 0, 0},
+			{ "SMG_02_F", "", 0, 0},
+			{ "arifle_MX_Black_F", "", 0, 0},
+			{ "Binocular", "Jumelles", 0, 0 },
+            { "ItemGPS", "", 0, -1 },
+            { "ToolKit", "Trousse à outils", 0, 0 },
+			{ "FirstAidKit", "Kit de soins", 0, 0 },
+            { "Medikit", "Trousse médicale", 0, 0 },
+            { "NVGoggles_OPFOR", "Vision nocturne", 0, 0 }
         };
         mags[] = {
-            { "30Rnd_556x45_Stanag", "Mk20 (30)", 100 },
-            { "30Rnd_556x45_Stanag_Tracer_Green", "Mk20 - Traçantes (30)", 100 }
+            { "16Rnd_9x21_Mag", "Pistolet étourdissant (16)", 0 },
+			{ "16Rnd_9x21_Mag", "", 0 },
+			{ "30Rnd_9x21_Mag", "", 0 },
+            { "30Rnd_9x21_Mag_SMG_02 ", "", 0 }
         };
     };
 
-    class cop_brigadierchef {
-        name = "Brigadier Chef";
+    class cop_sousoff {
+        name = "Sous officier";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "Vous n'êtes pas brigadier chef!" };
+        level[] = { "life_coplevel", "SCALAR", 4, "Vous n'êtes pas sous officier!" };
         items[] = {
-            { "arifle_MXC_F", "MX Court - 6.5", 20000, -1 },
-            { "muzzle_snds_H", "Silencieux 6.5", 500, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1000, -1 },
-			{ "SmokeShell", "Fumigène blanc", 1000, -1},
-			{ "SmokeShell", "Fumigène bleu", 1000, -1},
-			{ "Binocular", "Jumelles", 150, -1 },
-            { "ItemGPS", "", 100, -1 },
-            { "ToolKit", "Trousse à outils", 250, -1 },
-			{ "FirstAidKit", "Kit de soins", 150, -1 },
-            { "Medikit", "Trousse médicale", 500, -1 },
-            { "NVGoggles_OPFOR", "Vision nocturne", 1000, -1 }
+            { "arifle_MXC_Black_F", "", 0, 0 },
+            { "arifle_MXM_Black_F", "", 0, 0 },
+			{ "LMG_Mk200_F", "", 0, 0 },
+            { "HandGrenade_Stone", "Flashbang", 0, 0 },
+			{ "SmokeShell", "Fumigène blanc", 0, 0},
+			{ "SmokeShell", "Fumigène bleu", 0, 0},
+			{ "Binocular", "Jumelles", 0, 0 },
+            { "ItemGPS", "", 0, 0 },
+            { "ToolKit", "Trousse à outils", 0, 0 },
+			{ "FirstAidKit", "Kit de soins", 0, 0 },
+            { "Medikit", "Trousse médicale", 0, 0 },
+            { "NVGoggles_OPFOR", "Vision nocturne", 0, 0 }
         };
         mags[] = {
-            { "30Rnd_65x39_caseless_mag", "MX (30)", 150 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "MX - Traçantes (30)", 150 }
+            { "30Rnd_65x39_caseless_mag", "MX (30)", 0 },
+			{ "200Rnd_65x39_cased_Box", "", 0 },
+            { "30Rnd_65x39_caseless_mag_Tracer", "MX - Traçantes (30)", 0 }
         };
     };
 	
-	class cop_adjudant {
-        name = "Adjudant";
+	class cop_officier {
+        name = "Officier";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 4, "Vous n'êtes pas adjudant!" };
+        level[] = { "life_coplevel", "SCALAR", 7, "Vous n'êtes pas Officier!" };
         items[] = {
-            { "arifle_MXM_F", "MXM 6.5", 25000, -1 },
-			{ "arifle_MX_SW_F", "MX SW 6.5", 30000, -1 },
-			{ "optic_DMS", "", 500, -1 },
-			{ "Binocular", "Jumelles", 150, -1 },
-            { "ItemGPS", "", 100, -1 },
-            { "ToolKit", "Trousse à outils", 250, -1 },
-			{ "FirstAidKit", "Kit de soins", 150, -1 },
-            { "Medikit", "Trousse médicale", 500, -1 },
-            { "NVGoggles_OPFOR", "Vision nocturne", 1000, -1 }
+            { "arifle_CTAR_blk_F", "", 0, 0 },
+			{ "srifle_DMR_02_F", "", 0, 0 },
+			{ "srifle_EBR_F", "", 0, 0 },
+			{ "srifle_DMR_02_F", "", 0, 0 },
+			{ "srifle_DMR_03_F", "", 0, 0 },
+			{ "srifle_DMR_05_blk_F", "", 0, 0 },
+			{ "Binocular", "Jumelles", 0, 0 },
+            { "ItemGPS", "", 0, -1 },
+            { "ToolKit", "Trousse à outils", 0, 0 },
+			{ "FirstAidKit", "Kit de soins", 0, 0 },
+            { "Medikit", "Trousse médicale", 0, 0 },
+            { "NVGoggles_OPFOR", "Vision nocturne", 0, 0 }
         };
         mags[] = {
-            { "30Rnd_65x39_caseless_mag", "MXM/MX SW (30)", 200 },
-			{ "30Rnd_65x39_caseless_mag_Tracer", "MXM/MX SW - Traçantes (30)", 200 },
-			{ "100Rnd_65x39_caseless_mag", "MX SW (100)", 200 },
-			{ "100Rnd_65x39_caseless_mag_Tracer", "MX SW - Traçantes (100)", 200 }
+            { "30Rnd_580x42_Mag_F", "", 0 },
+			{ "10Rnd_338_Mag", "", 0 },
+			{ "20Rnd_762x51_Mag", "", 0 },
+			{ "30Rnd_556x45_Stanag", "", 0 },
+			{ "20Rnd_762x51_Mag", "", 0 },
+			{ "10Rnd_93x64_DMR_05_Mag", "", 0 }
         };
     };
 	
-	class cop_major {
-        name = "Major";
+	class cop_optaccess {
+        name = "Accessoires";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 5, "Vous n'êtes pas major!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "Vous n'êtes pas habilité!" };
         items[] = {
-            { "arifle_Katiba_GL_F", "Katiba 6.5 GL", 35000, -1 },
-			{ "LMG_Mk200_F", "Mk200", 40000, -1 },
-			{ "1Rnd_Smoke_Grenade_shell", "GL - Fumigène blanc", 750 },
-			{ "Binocular", "Jumelles", 150, -1 },
-            { "ItemGPS", "", 100, -1 },
-            { "ToolKit", "Trousse à outils", 250, -1 },
-			{ "FirstAidKit", "Kit de soins", 150, -1 },
-            { "Medikit", "Trousse médicale", 500, -1 },
-            { "NVGoggles_OPFOR", "Vision nocturne", 1000, -1 }
+            { "muzzle_snds_H", "", 0, 0 },
+			{ "muzzle_snds_L", "", 0, 0 },
+			{ "muzzle_snds_M", "", 0, 0 },
+			{ "muzzle_snds_B", "", 0, 0 },
+			{ "muzzle_snds_H_MG", "", 0, 0 },
+			{ "optic_Arco", "", 0, 0 },
+			{ "optic_Hamr", "", 0, 0 },
+			{ "optic_Aco", "", 0, 0 },
+			{ "optic_ACO_grn", "", 0, 0 },
+			{ "optic_Aco_smg", "", 0, 0 },
+			{ "optic_ACO_grn_smg", "", 0, 0 },
+			{ "optic_Holosight", "", 0, 0 },
+			{ "optic_Holosight_smg", "", 0, 0 },
+			{ "optic_SOS", "", 0, 0 },
+			{ "acc_flashlight", "", 0, 0 },
+			{ "acc_pointer_IR", "", 0, 0 },
+			{ "optic_MRCO", "", 0, 0 },
+			{ "muzzle_snds_acp", "", 0, 0 },
+			{ "optic_NVS", "", 0, 0 },
+			{ "optic_Nightstalker", "", 0, 0 },
+			{ "optic_tws", "", 0, 0 },
+			{ "optic_tws_mg", "", 0, 0 },
+			{ "optic_DMS", "", 0, 0 },
+			{ "optic_Yorris", "", 0, 0 },
+			{ "optic_MRD", "", 0, 0 },
+			{ "optic_LRPS", "", 0, 0 }
+
         };
-        mags[] = {
-            { "30Rnd_65x39_caseless_green", "Katiba (30)", 250 },
-			{ "30Rnd_65x39_caseless_green_mag_Tracer", "Katiba - Traçantes (30)", 250 },
-			{ "200Rnd_65x39_cased_Box", "Mk200 (200)", 250 },
-			{ "200Rnd_65x39_cased_Box_Tracer", "Mk200 - Traçantes (200)", 250 },
+        mags[] = {};
+
         };
     };
 	
-	class cop_lieutenant {
+/*	class cop_lieutenant {
         name = "Lieutenant";
         side = "cop";
         license = "";
@@ -403,7 +427,7 @@ Même chose que pour les rebelles , les gangs n'ont pas de shop à proprement pa
 			{ "RPG32_F", "Plug anal", 15000 },
 			{ "RPG32_HE_F", "Gode à pointes", 17500 }
         };
-    };
+    };*/
 
     //Medic Shops
     class med_basic {
@@ -412,13 +436,16 @@ Même chose que pour les rebelles , les gangs n'ont pas de shop à proprement pa
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "ItemGPS", "", 100, 45 },
-            { "Binocular", "", 150, -1 },
-            { "ToolKit", "", 250, 75 },
-            { "FirstAidKit", "", 150, 65 },
-            { "Medikit", "", 500, 450 },
-            { "NVGoggles", "", 1200, 980 }
+            { "ItemGPS", "", 0, 0 },
+			{ "hgun_ACPC2_F", "", 2100, 0 },
+            { "Binocular", "", 0, 0 },
+            { "ToolKit", "", 0, 0 },
+            { "FirstAidKit", "", 0, 0 },
+            { "Medikit", "", 0, 0 },
+            { "NVGoggles", "", 0, 0 }
         };
-        mags[] = {};
+        mags[] = {
+			{ "11Rnd_45ACP_Mag", "", 380 }
+			
     };
 };
