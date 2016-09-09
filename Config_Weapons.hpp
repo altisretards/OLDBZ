@@ -302,7 +302,7 @@ Même chose que pour les rebelles , les gangs n'ont pas de shop à proprement pa
         mags[] = {};
 
         };
-    };
+    
 	
 /*	class cop_lieutenant {
         name = "Lieutenant";
@@ -448,4 +448,5 @@ Même chose que pour les rebelles , les gangs n'ont pas de shop à proprement pa
 			{ "11Rnd_45ACP_Mag", "", 380 }
 			
     };
+};
 };
