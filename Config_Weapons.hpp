@@ -437,7 +437,6 @@ Même chose que pour les rebelles , les gangs n'ont pas de shop à proprement pa
         level[] = { "", "", -1, "" };
         items[] = {
             { "ItemGPS", "", 0, 0 },
-			{ "hgun_ACPC2_F", "", 2100, 0 },
             { "Binocular", "", 0, 0 },
             { "ToolKit", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
