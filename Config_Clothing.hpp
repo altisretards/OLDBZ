@@ -32,6 +32,8 @@ class Clothing {
             { "U_C_HunterBody_grn", "The Hunters Look", 150, { "", "", -1 } },
             { "U_C_WorkerCoveralls", "Mechanic Coveralls", 250, { "", "", -1 } },
             { "U_OrestesBody", "Surfing On Land", 110, { "", "", -1 } }
+			
+			};
             
         };
         headgear[] = {
@@ -97,12 +99,23 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Retirer uniforme", 0, { "", "", -1 } },
             { "U_O_OfficerUniform_ocamo", "Uniforme douanes", 25, { "life_coplevel", "SCALAR", 2 } },
-			{ "U_Rangemaster", "Uniforme", 25, { "life_coplevel", "SCALAR", 1 } },
+			{ "U_Rangemaster", "Uniforme", 25, { "life_coplevel", "SCALAR", 0 } },
+			{ "U_Rangemaster", "Uniforme GAV", 25, { "life_coplevel", "SCALAR", 1 } },
+			{ "U_Rangemaster", "Uniforme Brigadier", 25, { "life_coplevel", "SCALAR", 2 } },
+			{ "U_Rangemaster", "Uniforme Brigadier Chef", 25, { "life_coplevel", "SCALAR", 3 } },
+			{ "U_Rangemaster", "Uniforme Adjudant", 25, { "life_coplevel", "SCALAR", 4 } },
+			{ "U_Rangemaster", "Uniforme Adjudant Chef", 25, { "life_coplevel", "SCALAR", 5 } },
+			{ "U_Rangemaster", "Uniforme Major", 25, { "life_coplevel", "SCALAR", 6 } },
+			{ "U_Rangemaster", "Uniforme Lieutenant", 25, { "life_coplevel", "SCALAR", 7 } },
+			{ "U_Rangemaster", "Uniforme Capitaine", 25, { "life_coplevel", "SCALAR", 8 } },
+			{ "U_Marshal", "Uniforme Commandant", 25, { "life_coplevel", "SCALAR", 9 } },
+			{ "U_Marshal", "Uniforme Lieutenant-colonel", 25, { "life_coplevel", "SCALAR", 10 } },
+			{ "U_Marshal", "Uniforme Colonel", 25, { "life_coplevel", "SCALAR", 11 } },
 			{ "U_NikosAgedBody", "Tenue civile", 25, { "life_coplevel", "SCALAR", 3 } },
 			{ "U_O_Wetsuit", "Uniforme de plongee", 25, { "life_coplevel", "SCALAR", 2 } },
-			{ "U_Marshal", "Uniforme Haut Grade", 25, { "life_coplevel", "SCALAR", 9 } },
-			{ "U_B_CombatUniform_mcam_worn", "Uniforme intervention", 25, { "life_coplevel", "SCALAR", 2 } },
-			{ "U_B_SpecopsUniform_sgg", "Uniforme gendarmerie", 25, { "life_coplevel", "SCALAR", 3 } }
+			{ "U_B_CombatUniform_mcam_worn", "Uniforme PSIG", 25, { "life_coplevel", "SCALAR", 2 } },
+			{ "U_B_SpecopsUniform_sgg", "Uniforme gendarmerie", 25, { "life_coplevel", "SCALAR", 3 } },
+			{ "U_I_OfficerUniform", "Uniforme Cérémonie", 25, { "life_coplevel", "SCALAR", 2 } }
         };
         headgear[] = {
             { "NONE", "Retirer eq. tête", 0, { "", "", -1 } },
@@ -114,7 +127,7 @@ class Clothing {
         };
         goggles[] = {
             { "NONE", "Retirer lunettes", 0, { "", "", -1 } } ,
-			{ "G_Diving", "Cagoule Intervention", 0, { "life_coplevel", "SCALAR", 2 } },
+			{ "G_Diving", "Lunettes de plongee", 0, { "life_coplevel", "SCALAR", 2 } },
 			{ "G_Balaclava_blk", "Cagoule Intervention", 0, { "life_coplevel", "SCALAR", 2 } },
 			{ "G_Aviator", "", 0, { "life_coplevel", "SCALAR", 2 } },
 			{ "G_Spectacles", "", 0, { "life_coplevel", "SCALAR", 2 } },
@@ -126,7 +139,7 @@ class Clothing {
             { "V_RebreatherB", "", 0, { "life_coplevel", "SCALAR", 2 } },
 			{ "V_Rangemaster_belt", "", 0, { "life_coplevel", "SCALAR", 2 } },
 			{ "V_PlateCarrierSpec_blk", "Intervention", 0, { "life_coplevel", "SCALAR", 2 } },
-			{ "Vest_V_PlateCarrier1_blk", "Gilet officier", 0, { "life_coplevel", "SCALAR", 2 } }
+			{ "V_PlateCarrier1_blk", "Gilet officier", 0, { "life_coplevel", "SCALAR", 2 } }
         };
         backpacks[] = {
             { "NONE", "Retirer sac à dos", 0, { "", "", -1 } },
@@ -227,7 +240,7 @@ class Clothing {
         };
     };
 
-/*    class reb {
+    class reb {
         title = "STR_Shops_C_Rebel";
         license = "rebel";
         side = "civ";
@@ -302,7 +315,10 @@ class Clothing {
             { "B_Carryall_khk", "", 750, { "", "", -1 } },
             { "B_Carryall_cbr", "", 750, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 50, { "", "", -1 } }
-*/
+			
+			};
+    };
+
 
 
     class kart {
